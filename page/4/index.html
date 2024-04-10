@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Page 4 | Hexo</title>
+  <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
   
@@ -19,20 +19,22 @@
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
-  <link rel="icon" href="/css/images/favicon.ico">
+
+  
+
+  <link rel="icon" href="/css/images/mylogo.jpg">
+  <link rel="apple-touch-icon" href="/css/images/mylogo.jpg">
   
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
-  <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <style type="text/css">
-    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/l?subset_id=2&fvd=n5) format("woff2");font-weight:500;font-style:normal;}
-    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/l?subset_id=2&fvd=n7) format("woff2");font-weight:500;font-style:normal;}
-    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/l?subset_id=2&fvd=n4) format("woff2");font-weight:lighter;font-style:normal;}
-    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/d337d8/000000000000000000010095/27/l?subset_id=2&fvd=i4) format("woff2");font-weight:400;font-style:italic;}</style>
-    
-  <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Yanone+Kaffeesatz%3A200%2C300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
+    @font-face{font-family:futura-pt; src:url("/css/fonts/FuturaPTBold.otf") format("woff");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt-light; src:url("/css/fonts/FuturaPTBook.otf") format("woff");font-weight:lighter;font-style:normal;}
+    @font-face{font-family:futura-pt-italic; src:url("/css/fonts/FuturaPTBookOblique.otf") format("woff");font-weight:400;font-style:italic;}
+}
 
-  <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
+  </style>
   
 <link rel="stylesheet" href="/css/style.css">
 
@@ -40,11 +42,26 @@
   
 <script src="/js/jquery-3.1.1.min.js"></script>
 
+  
+<script src="/js/bootstrap.js"></script>
+
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="/css/bootstrap.css" >
-  <link rel="stylesheet" href="/css/fashion.css" >
-  <link rel="stylesheet" href="/css/glyphs.css" >
+
+  
+    <link rel="stylesheet" href="/css/home.css" >
+  
+
+  
+
+  
+
+  
+  
+  
+    <link rel="stylesheet" href="/css/vdonate.css" >
+  
 
 <meta name="generator" content="Hexo 7.1.1"></head>
 
@@ -54,85 +71,207 @@
 
 
   
+    <header id="header">
+
+	<!-- 背景图模式 -->
+	
+
+    
+      <div id="intrologo" class="intro-logo" style="background-position:center; background-repeat:no-repeat; background-image: url(); background-size: auto 100%;">
+
+      <!-- Support rolling -->  
+        
+        <section class="awSlider">
+          <div class="carousel slide carousel-fade " data-ride="carousel">
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+               
+                  
+                    <div class="item active">
+                  
+                    <img id="carousel-img0" src="/css/images/home-bg.jpg">
+                  </div>
+
+                  <!-- 自适应大图 -->
+                  <script>
+                      var img0 = new Image();
+                      var imageTag0 = document.getElementById("carousel-img0");
+                      img0.src = imageTag0.src;
+                      img0.onload=function(){
+                        if (img0.width / img0.height <= document.body.clientWidth / document.body.clientHeight) {
+                          imageTag0.style.width = document.body.clientWidth + "px";
+                        } else {
+                          imageTag0.style.height = document.body.clientHeight + "px";
+                          imageTag0.style.marginLeft = -(document.body.clientHeight * img0.width / img0.height - document.body.clientWidth) / 2 + "px";
+                        }
+                      };
+                  </script>
+                
+                  
+                    <div class="item">
+                  
+                    <img id="carousel-img1" src="/css/images/sample.jpg">
+                  </div>
+
+                  <!-- 自适应大图 -->
+                  <script>
+                      var img1 = new Image();
+                      var imageTag1 = document.getElementById("carousel-img1");
+                      img1.src = imageTag1.src;
+                      img1.onload=function(){
+                        if (img1.width / img1.height <= document.body.clientWidth / document.body.clientHeight) {
+                          imageTag1.style.width = document.body.clientWidth + "px";
+                        } else {
+                          imageTag1.style.height = document.body.clientHeight + "px";
+                          imageTag1.style.marginLeft = -(document.body.clientHeight * img1.width / img1.height - document.body.clientWidth) / 2 + "px";
+                        }
+                      };
+                  </script>
+                
+                  
+                    <div class="item">
+                  
+                    <img id="carousel-img2" src="https://source.unsplash.com/collection/954550/1920x1080">
+                  </div>
+
+                  <!-- 自适应大图 -->
+                  <script>
+                      var img2 = new Image();
+                      var imageTag2 = document.getElementById("carousel-img2");
+                      img2.src = imageTag2.src;
+                      img2.onload=function(){
+                        if (img2.width / img2.height <= document.body.clientWidth / document.body.clientHeight) {
+                          imageTag2.style.width = document.body.clientWidth + "px";
+                        } else {
+                          imageTag2.style.height = document.body.clientHeight + "px";
+                          imageTag2.style.marginLeft = -(document.body.clientHeight * img2.width / img2.height - document.body.clientWidth) / 2 + "px";
+                        }
+                      };
+                  </script>
+                
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href=".carousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Geri</span>
+            </a>
+            <a class="right carousel-control" href=".carousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">İleri</span>
+            </a>
+          </div>
+        </section>
+        <script>
+          $('section.awSlider .carousel').carousel({
+              pause: '',
+              interval: 5000
+          });
+          var startImage = $('section.awSlider .item.active > img').attr('src');
+          $('section.awSlider .carousel').on('slid.bs.carousel', function () {
+              var bscn = $(this).find('.item.active > img').attr('src');
+              $('section.awSlider > img').attr('src', bscn);
+          });
+        </script>
+      
+
+    
+ 
+
+
+    <canvas width="100%" height="100%"></canvas>
+    <script>
+      var c = document.getElementsByTagName('canvas')[0],
+          x = c.getContext('2d'),
+          w = window.innerWidth,
+          h = window.innerHeight,
+          pr = window.devicePixelRatio || 1,
+          f = 90,
+          q,
+          m = Math,
+          r = 0,
+          u = m.PI*2,
+          v = m.cos,
+          z = m.random
+      c.width = w*pr
+      c.height = h*pr
+      x.scale(pr, pr)
+      x.globalAlpha = 0.6
+
+      <!-- 折线Polyline背景 -->
+      
+    </script>
+    
+
+    
+      <div id="homelogo" class="homelogo" style="background: rgba(255,255,255,1);"> 
+    
+
+        
+          <div class="homelogoback"  style="border: 1px solid #404040;" >
+            <h1><a href="#content" id="logo">Hexo</a></h1>
+            <h3></h3>
+            <h5>John Doe</h5>
+            <!-- <p><a href="https://github.com/iTimeTraveler" target="_blank">Github</a></p> -->
+          </div>
+        
+    
+    </div>
+  </div>
+
+  <!-- 自适应主页背景大图 -->
   
-  <div class="site-header-image">
-    <img id="originBg" width="100%" alt="Hike News" src="">
-  </div>
 
-  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
-    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
-  </div>
-
-  <script>
-        var imgUrls = "css/images/pose01.jpg,https://source.unsplash.com/collection/954550/1920x1080,https://source.unsplash.com/collection/954550/1920x1081".split(",");
-        var random = Math.floor((Math.random() * imgUrls.length ));
-        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
-          document.getElementById("originBg").src=imgUrls[random];
-          document.getElementById("blurBg").src=imgUrls[random];
+ <!-- home_logo_image居中 -->
+ 
+    <script>
+        var homelogodiv = document.getElementById("homelogo");
+        if (document.all.homelogo.offsetWidth > document.body.clientWidth) {
+          homelogodiv.style.width = document.body.clientWidth + "px";
+          homelogodiv.style.marginLeft = document.body.clientWidth * -0.5 + "px";
         } else {
-          document.getElementById("originBg").src='/' + imgUrls[random];
-          document.getElementById("blurBg").src='/' + imgUrls[random];
+          homelogodiv.style.width = homelogodiv.clientWidth  + "px";
+          homelogodiv.style.marginLeft = (homelogodiv.clientWidth)  * -0.5 + "px";
         }
     </script>
+  
 
-
-
-
-<header id="allheader" class="site-header" role="banner" 
-   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
-  <div class="clearfix container">
-      <div class="site-branding">
-
-          <h1 class="site-title">
-            
-              <a href="/" title="Hexo" rel="home"> Hexo </a>
-            
-          </h1>
-          
-          
-            
-          <nav id="main-navigation" class="main-navigation" role="navigation">
-            <a class="nav-open">Menu</a>
-            <a class="nav-close">Close</a>
-
-            <div class="clearfix sf-menu">
-              <ul id="main-nav" class="menu sf-js-enabled sf-arrows"  style="touch-action: pan-y;">
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="/"> <a class="" href="/">Home</a> </li>
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="archives"> <a class="" href="/archives">Archives</a> </li>
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="categories"> <a class="" href="/categories">Categories</a> </li>
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="tags"> <a class="" href="/tags">Tags</a> </li>
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="about"> <a class="" href="/about">About</a> </li>
-                    
-              </ul>
-            </div>
-          </nav>
-
-      </div>
+  <div class="intro-navigate">
+      <p class="navigater-list">
+        
+          <a id="beautifont" class="main-nav-link" href="/">Home</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/archives">Archives</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/categories">Categories</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/tags">Tags</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/about">About</a>
+        
+      </p>
   </div>
+
 </header>
-
-
+  
   <div id="container">
     <div id="wrap">
+      
             
       <div id="content" class="outer">
         
-          <section id="main">
+          <section id="main" style="float:none;">
   
-    <article id="post-music/todo"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+    <article id="post-math/math"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
     
     
       <header class="article-header">
         
   
     <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2023/07/11/music/todo/">Musica in todos</a>
+      <a class="article-title" href="/2023/07/11/math/math/">Caculus</a>
     </h1>
   
 
@@ -140,74 +279,45 @@
     
     <div class="article-meta">
       
-	<a href="/2023/07/11/music/todo/" class="article-date">
-	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">July 11, 2023</time>
+	<a href="/2023/07/11/math/math/" class="article-date">
+	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">2023-07-11</time>
 	</a>
 
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Music/">Music</a>
- 
+    <a class="article-category-link" href="/categories/Mathematics/">Mathematics</a>
+
       
+      
+
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p>在此记录学习乐理的日常</p>
-<p>2023.7.22.</p>
-<p>昨天学了音程，小二度，大二度，小三度，大三度，纯四&#x2F;五度，增四&#x2F;五度，小六度，大六度，小七度，大七度，和一度(同音)，八度，现在可以简单区分音程关系，但是不够快速现在我在看到一个新的乐谱的时候，会先看这个乐谱的调号，我会通过看谱头有几个升记号或者降记号，通过升fa do so re la mi si和降si mi la re so do fa来判断调号，然后看哪个&#x2F;些音要升或者降，然后我会在我的琴上面把这些音找出来，但是比较慢，这个过程要大概两三分钟。现在我可以用我的小号吹出一个完整的音阶，我大概还需要一些时间，不过我想不会太久。琴行的乐理老师似乎有些好奇我为什么要来学这些东西，然后他起初的态度很不好，他似乎感觉我是一个自以为很懂的学生，其实我们只是稍微缺少一些沟通，所以我克制的很好，慢慢让他变得冷静和友好了一些，然后进行高效的学习，在本土这里我确实更为放松和适应一些，老师有那么一点诧异，他这一课塞的量非常的大(可能他就是想恶心我一下)，但是我还算顺利的弄明白了，不过归根结底我只是在功利的和他购买我想要的东西，不想浪费其他无用的精力，比如争辩什么的。所以我没有问太多不相干的问题（在此插入，我测试他的音准，挑了标准音A来测，他说是E，竟然偏了五个全音），主要专注在我的学习情况&#x2F;目的和应该按照什么顺序学习。</p>
-<p>2023.7.25.</p>
-<p>我现在练音准几乎是靠肌肉记忆，我每天没事干就把A听一下，然后哼一下，我现在几乎可以肌肉记忆到发出A这个音的时候喉咙的感觉，所以我先用嗓子发出这个音，然后我知道这个大概是A3。声带比较准确地记住了那个感觉，或者紧张的力度。</p>
-<p>2023.8.2.</p>
-<p>我此前一直在思考我学习音乐最主要的问题，以及一些没有我这样喜（热）爱音乐的人是如何将演奏学习到比我好非常非常多，或者完全碾压我（因为我直到现在的演奏都几乎没有任何能弹出来的）。</p>
-<p>首先从碾压我，但是并不如我这样喜爱音乐的那些人的角度出发，对于这些人而言，他们早期的音乐学习存在一个苦练功夫的过程，这个过程他们在不是非常快乐，甚至在一个比较痛苦的过程中练习，但是这是一个非常重要的过程，即使是痛苦的练习，或者摄入新的词汇，就像痛苦的记忆英语单词，即使他们是痛苦的，但是他们也记住了，但是我几乎完全没有这个过程，所以这是我面临的一个最首要的问题，而且我终于把它想明白了。</p>
-<p>首先我愿意将钢琴的旋律比拟为一种语言的形式，那么它既然作为一种语言，一定与我们常用的语言（比如我现在正在使用的汉语以及我常常使用的英语）有非常相似的地方，在此处我要重点强调的相似是他们总的信息熵，或者是说，积累他们总的信息熵的时间，乐器与一门语言是高度相似的，尤其是钢琴这样的乐器，里面存在一些我难以描述的（暂时）抽象的大概的近似（因为我无法非常准确的量化比较他们之间信息熵的转换效率），应当并非是理论上完全无法描述，只是我目前的能力还完全不足矣，应当过几年我会有更具体的量化的描述出来。</p>
-<p>我现在有一定把握给他们做更为的具体的比拟</p>
-<p>首先我将英语的词汇量分为三个等级（纯粹按照我自己的标准）</p>
-<p>第一级 0到10000</p>
-<p>第二级 10000到20000</p>
-<p>第三级 20000到30000</p>
-<p>第四级30000到40000</p>
-<p>再往上就不分了，因为暂时没有什么意义，并且我认为再过10年也可能暂时没有什么意义。</p>
-<p>好的，现在有一个非常重要的东西，我可以量化的将这套标准粗糙的，近似地代入到钢琴中，但是钢琴中的词汇可以解释为一个和弦或者一个乐句，视它的音符数量（近似比拟为字母数量），或者种类，比如古典类乐句比拟严肃文学词汇（极其抽象），然后以下是我目前开始要练习的布局。</p>
-<p>第一级 0到10000 堆积占比70%，其实对我来说这个地方还可以再细分一点</p>
-<p>普通钢琴老师，我要先堆到这里</p>
-<p>第二级 10000到20000 堆积20%</p>
-<p>何老师大约在这个中间</p>
-<p>第三级 20000到30000 堆积10%</p>
-<p>国际知名钢琴家</p>
-<p>第四级30000到40000 堆积0%（没什么意义）</p>
-<p>王羽在这里</p>
-<p>我想我目前的词汇在10以下，然后我要开始堆词了，就像我以前堆积英语词汇那样，但是这一次是堆一个全新的东西，同样也是为了给我的头脑带来一些全新的思维和逻辑方式，以及我认为用一种机械（不是死板的那个意思，十只手指敲击琴键是一种物理性质的机械行为）的方式来输出信息和情感是更为可控，稳定和多元的声音类信息输出形式，是我所比较缺少或者可以全面，全新开发的。</p>
-<p>现在我要考量的是我堆积这类词汇的速度和尺度，可能会相比于我堆积语言类词汇慢一些，因为毕竟语言类词汇我堆了那么多年了，而我在最开始堆语言类词汇的速率的确也非常慢。</p>
-<p>我要先用两年堆到10000个，也就是普通钢琴老师的量，但是第三年我有可能可以有一个快速的上升，有可能在第三年一年我就可以堆满前两年总的量，第四年可以堆第三年的1.5倍，也就是在第四年年末堆到35000（比较难，可能性非常的低，除非我真的有巨大的passion并且给它最大量的时间，这个几乎是不可能的，因为我还需要学习很多其他的东西）</p>
-<p>如果用两年堆到一万个（我还要分词汇类型，单手词，双手词，短句，中句，长句等等），也就是10000➗730，一天大概13.6句，其实这个可能还是太多了，我感觉最开始每天能堆5句就很好了。但是重要的是发挥我堆积语言类词汇的瘾。</p>
-<p>2023.8.18.</p>
-<p>今天突然发现我在做一个有意思的事情，就是我在超市买东西的时候，在听超市的背景音乐的时候很自然地在脑海想象它的乐谱，可能是出门的时候刚好看了完整的对Yuja wang和teddy Abrams 所作的一个非常跟意义的现代协奏曲American project 的介绍(一个时长一个小时的视频)。也有可能是我几个月前就开始跟乐谱一起听一些协奏曲或者我很喜欢的作品，并且我也想起老师之前要求我所掌握的基本音乐乐理(节奏，音高，音程)，总之在以上所有的积累之上我在听那首曲子(旋律比较简单的流行钢琴)的时候脑子里非常自然地出现了它的乐谱，包括音符的音高和时值。<br>这是一个让我非常欣喜的事情，当你能够写出你所听到旋律的乐谱，你就可以把自己脑海里原创的旋律写下来，这也是之前非常困扰我的，原先我有一些非常本能的音乐灵感，一些旋律会出现在我的脑海，甚至做梦的时候，但是毁灭性的事情是，那个时候我学院派的技能非常弱，至少我没有办法想到一个旋律立马写下来，写成书面的形式，这样的话那个旋律就此永远消失。<br>我仍然在建立一些非常重要的基本功，对于系统的音乐技能，目前对我来说很重要的就是乐谱，识谱和写谱，我感觉我大概到达它的25%的能力。最近我的音乐学习任务是，记忆钢琴88个键在乐谱上的位置，我想这个任务还需要我两三个月，然后是在听音乐的时候逐渐自然地感受出它的时值和音高，然后尝试写一些自己脑海里的旋律，或者把现成的旋律扒出来也是一种有价值的训练，有趣的是Teddy Abrams自己写的american project 这个协奏曲他自己是弹不出来的。<br>简单描述，他和王羽佳是这样一对组合<br>王羽佳自己写不出非常精美的旋律，但她可以弹出来，因为她的作曲能力相对于演奏能力弱很多<br>而Teddy Abrams 恰恰相反，他的作曲能力比演奏能力很强，所以他作出比自己演奏能力更难的曲子，让yuja wang演奏。显然我以后更有可能成为Teddy Abrams。</p>
-<p>2023.10.7.</p>
-<p>我按照一个严密的，科学的，学院派的方法逐渐建立我的音乐系统能力，以关键核心基本的音乐理论为扎实的基础(音阶，音高，音程，符号，节拍，认真学习和熟练记忆所有的调式，对五线谱的不断强化地阅读能力，逐渐可以业余爱好进入到专业水准。我可能很快就逐渐掌握简单的协奏曲的编曲，当然会编得很烂，完全没有Mendelssohn 的那些更精美。在扎实地学习和实践完音乐理论之后，乐器的使用可以迅速膨胀开几十种乐器类型，管乐器组的basson(高中低), 长号，圆号，小号(各种调式降b，c调，d调的)，弦乐组这边的小提琴，中提琴，大提琴，bass，每一个都稍微研究一下发音原理和演奏方法，就可以往协奏曲里添了。然后我也可以把管乐器里面的七八个都练一练，小号，长号，长笛，短笛，单簧管，双簧管，定音鼓，这几个可以全部玩一玩，如果高兴的，运气比较好的话我可以玩十几种乐器。<br>钢琴，小号(爵士和古典都能用，古典多用于高亢起始领音)，长号(爵士乐用的很舒服，古典也可以用，中部协奏用的装饰音)，法国号(这个声音太大太低了)爵士吉他，长笛(chorale很棒，拉三的第一乐章中后的天降)短笛(在普二中第一乐章出现记得我最早学音乐的方法也很野蛮，上来就想练一个art tartum 改编的tea for two融合爵士和古典的炫技短作一大堆华彩以我当时能力碰都不能碰，于是非常挫败，现在都找很简单的曲子慢慢地练我比较想学习的乐器有小号，长号，长笛，爵士吉他，弦乐器想学的不多，可能可以学中提琴或者大提琴拉低音声部的协奏，或者小，中提琴去拉中高音部位的弦乐协奏，这个东西在拉三中也非常鲜明，不过提琴不是一个非常适合独奏的乐器，一群提琴组协奏起来才是弦乐器真正的灵魂前两天印制了几本钢协的书本，其中有一Mendelssohn concerto No. 1都快被我翻烂了，拿到这份乐谱，我几乎每天翻一次或者两次，今年是最高开始在书面上研究他，去年一整年我都没有碰过乐谱，而且也已经非常非常熟悉这个作品concerto 1的旋律和内容,后来感觉乐谱应当是个好思路，我得看乐谱了，于是想办法找到了总谱，印制成册，放到书包里随身携带，随时读谱，我去年一年将Mendelssohn concerto 1这个钢协完整地听了300次，所以抽象层面来说对他非常熟悉，乐谱是一个具像化的，书面化的信息表达方式，也是一种语言的阅读，建立在我原先对旋律的高度熟悉之上，我可以勉强一边跟着音乐一般跟着乐谱的进度看过去，就是听得同时同步跟进翻阅他的乐谱，然后检查感受你看到什么，没看到什么。现在在演奏的音阶在乐谱上找到他的位置，现在在演奏的华彩乐段快速地在乐谱上找到位置，最好能够精确到能精准阅读音乐进行下去时的每一个音符，每一个大大小小的信息，从最早我只知道他现在弹到这个地方，慢慢到能够确认他弹的音，要努力抓住录音的节奏，努力抓住自己读的乐谱和演奏之间要精准地同步推进，慢慢地重复这个过程，你就会逐渐能够掌握一个168页，上千个小节的乐队总谱我有一种感觉，在我所学的这些根基上，以及拉赫，prokofiev, Maurice ravel, Mendelssohn这些人提供给我的元素之上，在不远的将来我可以创作出一些非常独特的作品，正式的，大型的，类似于门一这样正统意义的古典协奏曲，而中国迄今为止，没有任何一个人有写过这种东西，他们甚至哪个人写出这种东西的零头，不过一个中国人写的协奏曲肯定是非常值得国际音乐界怀疑或者鄙夷的，对于这点我不能确定，不过也许如果他们愿意为我演奏一次之后感觉非常不错，那样是最棒的。目前世界上还在写正统协奏曲的人也屈指可数了，我能想到的只有Teddy Abrams, MTT(久石让绝对不算，篇幅太短小，完全都没有正式的协奏曲的规格，更偏向流行乐)。</p>
-<p>2023.10.8.</p>
-<p>在大约今年的八月份的时候我开始认真学习乐理，最近两天非常惊喜地感觉到那个时候学习的一些基础能力我都逐渐的熟练了，主要是听写(心写)节奏，和更加精确地相对音准，我到现在仍然不知道绝对音准该怎么练习，我最开始练习绝对音准的方法是长时间的听标准音A,但是听了两个星期感觉效果非常低，后来也没有耐心再听了，以后也不知道能不能练习出绝对音准，不过我不能完全确定它对我以后的学习到底后产生什么影响，到底是积极还是消极，因为如果我如果真的有的话，我担心会滥用它，这样反而是不利的，没有它让我更加主动地去努力感受。我大概用了一个半月的时间让自己可以熟练感受一些基础的节拍类型，练习方法是在任何听到音乐的时候(比如自己听，或者超市，商场的背景音乐，或者和录音熟悉乐谱的时候)，刻意地让自己感受它的节奏时值(最开始有些刻意，后来慢慢变成无意)，我现在可以比较轻松地听出一些简单的时值类型(在整体旋律不要太复杂的情况下，一般来说流行乐是可以听出来的)，比如前2后1，前1后2，前3后1，前1后3，听四三，四八(还是八四?我不确定)，四五(从五拍开始向上非常少)，6，7，9我印象里不了解有，10拍的印象里只有一个，11向上印象里没听到过。我现在可以比较轻松地扒一点简单的谱子，但是bpm尽量不能超过100，音轨尽量不要超过三个，另外我只能听出单种音色的单音，基本上没有能力准确听写出完整的和谐(可能可以写出和弦里的一个根音)，我知道有些人可以准确听出和弦，我也想，但是我现在听不出来。<br>另外，在逐渐熟练阅读五线谱和能够在心里自然地想出听到的旋律的乐谱的时候(普通商场里听到的我可以做到音高不准确但是节奏基本准确，最常见的乐曲的节奏型非常简单，从全曲一直1111头到尾的，也会有到前1后2，然后才会前2后1，有时会出现前1后3，当然，相比于与古典协奏作品这些也当然很容易听清)，对音乐也有了全新的认识，一方面是喜悦的，另一方面缺是遗憾的。喜悦的是自己逐渐也可以和”专业人士”一样透彻地明白的它，也不会因为从前的，因为不够，专业，不够了解而对那些”作曲家，歌手”产生没必要的崇敬，因为很多的作曲的确非常烂，我现在至少有自信告诉自己哪些很烂，哪些不烂。遗憾的感受是，五线谱给我一种把音乐赤裸裸脱光在我面前的感受，高度专业化和精湛成熟的符号方法把一切都精确地展示在你面前，哪怕你听不清楚也可以轻松地用眼睛一眼看见，所以，虽然我看清了一切，但是好奇心满足之后，由原来的神秘感所带给我的憧憬便荡然无存了，这让我感到有些难过，你往往更难被一个你非常了解的东西所深刻吸引，而很多从前我非常喜爱的旋律，我现在几乎可以轻松地在听到它们的瞬间就在脑海中比较轻松地谱写出乐谱，这会让我在一定程度上对它们失去兴趣。</p>
-
+        <p class="article-excerpt-content">
+          2023.7.21.
+我突然想学习微积分，因为我感觉我以后有极大的可能使用到它，微积分的思想和元素极大的充盈着我们所生活的空间之中（也许尤其是一些与曲线相关的内容），而对于我而言，如果到现在还没有理解掌握微积分可能就太过分了,我记得之前我在学习斯坦福Leonard Susskind的广义相对论（原谅我或者也不用原谅我因为我不为了任何人，但是这又使我想起我在音乐方面的学习，在没有何老师认真指导的情况下几乎是野蛮冲撞着，以极其低下的效率），教授说我就没见过不会微积分的高中生（当然也许是一种调侃...
+        </p>
+        <p class="article-more-link">
+          <a href="/2023/07/11/math/math/#more">Read More</a>
+        </p>
       
     </div>
-    <footer class="entry-meta entry-footer">
+    <footer class="article-footer">
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Music/">Music</a>
+      
+      
+      
 
-      
-      
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
+
   
     <article id="post-math/vectors"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+  <div id="articleInner" class="article-inner">
     
     
       <header class="article-header">
@@ -223,41 +333,46 @@
     <div class="article-meta">
       
 	<a href="/2023/07/11/math/vectors/" class="article-date">
-	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">July 11, 2023</time>
+	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">2023-07-11</time>
 	</a>
 
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Mathematics/">Mathematics</a>, <a class="article-category-link" href="/categories/Mathematics/Basic-Tools/">Basic Tools</a>
- 
+    <a class="article-category-link" href="/categories/Mathematics/">Mathematics</a><a class="article-category-link" href="/categories/Mathematics/Basic-Tools/">Basic Tools</a>
+
       
+      
+
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p>$$<br>\alpha+\beta<br>$$</p>
-<p>$$</p>
-<p>$$</p>
+        <p class="article-excerpt-content">
+          $$\alpha+\beta$$
+$$
+$$
 
+        </p>
+        <p class="article-more-link">
+          <a href="/2023/07/11/math/vectors/#more">Read More</a>
+        </p>
       
     </div>
-    <footer class="entry-meta entry-footer">
+    <footer class="article-footer">
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Mathematics/">Mathematics</a>, <a class="article-category-link" href="/categories/Mathematics/Basic-Tools/">Basic Tools</a>
+      
+      
+      
 
-      
-      
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
+
   
     <article id="post-math/初等数论"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+  <div id="articleInner" class="article-inner">
     
     
       <header class="article-header">
@@ -273,39 +388,44 @@
     <div class="article-meta">
       
 	<a href="/2023/07/11/math/%E5%88%9D%E7%AD%89%E6%95%B0%E8%AE%BA/" class="article-date">
-	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">July 11, 2023</time>
+	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">2023-07-11</time>
 	</a>
 
       
-	<span class="ico-folder"></span>
     <a class="article-category-link" href="/categories/Mathematics/">Mathematics</a>
- 
+
       
+      
+
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p>这是我接下来有可能会学习的内容，因为我记得最早的时候我问吴如果想入手数学应该看什么材料，这是他第一推荐的那一本</p>
+        <p class="article-excerpt-content">
+          这是我接下来有可能会学习的内容，因为我记得最早的时候我问吴如果想入手数学应该看什么材料，这是他第一推荐的那一本
 
+        </p>
+        <p class="article-more-link">
+          <a href="/2023/07/11/math/%E5%88%9D%E7%AD%89%E6%95%B0%E8%AE%BA/#more">Read More</a>
+        </p>
       
     </div>
-    <footer class="entry-meta entry-footer">
+    <footer class="article-footer">
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Mathematics/">Mathematics</a>
+      
+      
+      
 
-      
-      
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
+
   
     <article id="post-Biology/psychology/my world copy"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+  <div id="articleInner" class="article-inner">
     
     
       <header class="article-header">
@@ -321,38 +441,43 @@
     <div class="article-meta">
       
 	<a href="/2023/07/11/Biology/psychology/my%20world%20copy/" class="article-date">
-	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">July 11, 2023</time>
+	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">2023-07-11</time>
 	</a>
 
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Biology/">Biology</a>, <a class="article-category-link" href="/categories/Biology/Psychology/">Psychology</a>
- 
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        
-      
-    </div>
-    <footer class="entry-meta entry-footer">
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Biology/">Biology</a>, <a class="article-category-link" href="/categories/Biology/Psychology/">Psychology</a>
+    <a class="article-category-link" href="/categories/Biology/">Biology</a><a class="article-category-link" href="/categories/Biology/Psychology/">Psychology</a>
 
       
       
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p class="article-excerpt-content">
+          
+        </p>
+        <p class="article-more-link">
+          <a href="/2023/07/11/Biology/psychology/my%20world%20copy/#more">Read More</a>
+        </p>
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+      
+
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
+
   
     <article id="post-Biology/psychology/my world"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+  <div id="articleInner" class="article-inner">
     
     
       <header class="article-header">
@@ -368,38 +493,43 @@
     <div class="article-meta">
       
 	<a href="/2023/07/11/Biology/psychology/my%20world/" class="article-date">
-	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">July 11, 2023</time>
+	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">2023-07-11</time>
 	</a>
 
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Biology/">Biology</a>, <a class="article-category-link" href="/categories/Biology/Psychology/">Psychology</a>
- 
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        
-      
-    </div>
-    <footer class="entry-meta entry-footer">
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Biology/">Biology</a>, <a class="article-category-link" href="/categories/Biology/Psychology/">Psychology</a>
+    <a class="article-category-link" href="/categories/Biology/">Biology</a><a class="article-category-link" href="/categories/Biology/Psychology/">Psychology</a>
 
       
       
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p class="article-excerpt-content">
+          
+        </p>
+        <p class="article-more-link">
+          <a href="/2023/07/11/Biology/psychology/my%20world/#more">Read More</a>
+        </p>
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+      
+
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
+
   
     <article id="post-economics/untitled folder/cpi"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+  <div id="articleInner" class="article-inner">
     
     
       <header class="article-header">
@@ -415,154 +545,51 @@
     <div class="article-meta">
       
 	<a href="/2023/07/11/economics/untitled%20folder/cpi/" class="article-date">
-	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">July 11, 2023</time>
+	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">2023-07-11</time>
 	</a>
 
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Economics/">Economics</a>, <a class="article-category-link" href="/categories/Economics/Basics/">Basics</a>, <a class="article-category-link" href="/categories/Economics/Basics/Index/">Index</a>
- 
+    <a class="article-category-link" href="/categories/Economics/">Economics</a><a class="article-category-link" href="/categories/Economics/Basics/">Basics</a><a class="article-category-link" href="/categories/Economics/Basics/Index/">Index</a>
+
       
+      
+
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p><a target="_blank" rel="noopener" href="https://www.investopedia.com/terms/c/consumerpriceindex.asp">https://www.investopedia.com/terms/c/consumerpriceindex.asp</a></p>
-<h1 id="Consumer-Price-Index-CPI-Explained-What-It-Is-and-How-It’s-Used"><a href="#Consumer-Price-Index-CPI-Explained-What-It-Is-and-How-It’s-Used" class="headerlink" title="Consumer Price Index (CPI) Explained: What It Is and How It’s Used"></a>Consumer Price Index (CPI) Explained: What It Is and How It’s Used</h1><p>By </p>
-<p><a target="_blank" rel="noopener" href="https://www.investopedia.com/contributors/53746/">JASON FERNANDO</a></p>
-<p>Updated July 13, 2023</p>
-<p>Reviewed by </p>
-<p><a target="_blank" rel="noopener" href="https://www.investopedia.com/peter-westfall-4776196">PETER WESTFALL</a></p>
-<p>Reviewed by Peter Westfall</p>
-<p><a target="_blank" rel="noopener" href="https://www.investopedia.com/peter-westfall-4776196">Full Bio</a></p>
-<p>Peter Westfall is a distinguished professor of information systems and quantitative sciences at Texas Tech University.</p>
-<p>Learn about our <a target="_blank" rel="noopener" href="https://www.investopedia.com/investopedia-financial-review-board-5076269">Financial Review Board</a> </p>
-<p>Fact checked by </p>
-<p><a target="_blank" rel="noopener" href="https://www.investopedia.com/pete-rathburn-5197827">PETE RATHBURN</a></p>
-<h2 id="What-Is-the-Consumer-Price-Index-CPI"><a href="#What-Is-the-Consumer-Price-Index-CPI" class="headerlink" title="What Is the Consumer Price Index (CPI)?"></a>What Is the Consumer Price Index (CPI)?</h2><p>The Consumer Price Index (CPI) measures the monthly change in prices paid by U.S. consumers. The <a target="_blank" rel="noopener" href="https://www.investopedia.com/terms/b/bls.asp">Bureau of Labor Statistics (BLS)</a> calculates the CPI as a <a target="_blank" rel="noopener" href="https://www.investopedia.com/terms/w/weightedaverage.asp">weighted average</a> of prices for a <a target="_blank" rel="noopener" href="https://www.investopedia.com/terms/b/basket_of_goods.asp">basket of goods and services</a> representative of aggregate U.S. consumer spending.1</p>
-<p>The CPI is one of the most popular measures of <a target="_blank" rel="noopener" href="https://www.investopedia.com/ask/answers/111414/what-difference-between-inflation-and-deflation.asp">inflation and deflation</a>. The CPI report uses a different survey methodology, price samples, and index weights than the <a target="_blank" rel="noopener" href="https://www.investopedia.com/terms/p/ppi.asp">producer price index (PPI)</a>, which measures changes in the prices received by U.S. producers of goods and services.23</p>
-<h3 id="KEY-TAKEAWAYS"><a href="#KEY-TAKEAWAYS" class="headerlink" title="KEY TAKEAWAYS"></a>KEY TAKEAWAYS</h3><ul>
-<li>The Consumer Price Index measures the overall change in consumer prices based on a representative basket of goods and services over time.</li>
-<li>The CPI is the most widely used measure of inflation, closely followed by policymakers, financial markets, businesses, and consumers.</li>
-<li>The widely quoted CPI is based on an index covering 93% of the U.S. population, while a related index covering wage earners and clerical workers is used for cost-of-living adjustments to federal benefits.</li>
-<li>The CPI is based on about 80,000 price quotes collected monthly from some 23,000 retail and service establishments as well as 50,000 rental housing units.</li>
-<li>Housing rents are used to estimate the change in shelter costs including owner-occupied housing that account for about a third of the CPI.</li>
-</ul>
-<h4 id="The-Consumer-Price-Index"><a href="#The-Consumer-Price-Index" class="headerlink" title="The Consumer Price Index"></a>The Consumer Price Index</h4><h2 id="Understanding-the-Consumer-Price-Index-CPI"><a href="#Understanding-the-Consumer-Price-Index-CPI" class="headerlink" title="Understanding the Consumer Price Index (CPI)"></a>Understanding the Consumer Price Index (CPI)</h2><p>The BLS collects about 80,000 prices monthly from some 23,000 retail and service establishments. Although the two CPI indexes calculated from the data both contain the word urban, the more broad-based and widely cited of the two covers 93% of the U.S. population.43</p>
-<iframe frameborder="0" src="https://3ee46c8e9908f7376a654f70e6df7862.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html" id="google_ads_iframe_3865/ddm.investopedia.com/ntv1_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="0" height="346" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" role="region" aria-label="Advertisement" tabindex="0" data-google-container-id="g" data-load-complete="true" style="box-sizing: border-box; border: 0px; vertical-align: bottom; min-width: 100%;"></iframe>
-
-<p>Shelter category prices accounting for a third of the overall CPI are based on a survey of rental prices for 50,000 housing units, which is then used to calculate the rise in rental prices as well as owners’ equivalents.35</p>
-<p>The owners’ equivalent category models the rent equivalent for owner-occupied housing to properly reflect housing costs’ share of <a target="_blank" rel="noopener" href="https://www.investopedia.com/terms/c/consumer-spending.asp">consumer spending</a>.5 User fees and sales or excise taxes are included, while income taxes and the prices of investments such as stocks, bonds, or <a target="_blank" rel="noopener" href="https://www.investopedia.com/terms/l/lifeinsurance.asp">life insurance policies</a> are not part of the CPI.3</p>
-<p>The calculation of the CPI indexes from the data factors in <a target="_blank" rel="noopener" href="https://www.investopedia.com/terms/s/substitution-effect.asp">substitution effects</a>—consumers’ tendency to shift spending away from products and categories has grown relatively more expensive. It also adjusts price data for changes in product quality and features. The weighting of the product and service categories in the CPI indexes corresponds to recent consumer spending patterns derived from a separate survey.67</p>
-<p>The CPI-U increased 3.0% over the 12-month period ending June 2023. That was an increase of 0.2% in June compared with a 0.1% increase in May 2023.8</p>
-<h2 id="Types-of-Consumer-Price-Indexes-CPIs"><a href="#Types-of-Consumer-Price-Indexes-CPIs" class="headerlink" title="Types of Consumer Price Indexes (CPIs)"></a>Types of Consumer Price Indexes (CPIs)</h2><p>The BLS publishes two indexes each month. The <a target="_blank" rel="noopener" href="https://www.investopedia.com/terms/c/cpiu.asp">Consumer Price Index for All Urban Consumers (CPI-U)</a> represents 93% of the U.S. population not living in remote rural areas. It doesn’t cover spending by people living in farm households, institutions, or on military bases. CPI-U is the basis of the widely reported CPI numbers that matter to financial markets.</p>
-<p>The BLS also publishes the <a target="_blank" rel="noopener" href="https://www.investopedia.com/terms/c/cpi-w.asp">Consumer Price Index for Urban Wage Earners and Clerical Workers (CPI-W)</a>. The CPI-W covers 29% of the U.S. population living in households with income derived predominantly from clerical employment or jobs with an hourly wage.3</p>
-<p>CPI-W is used to adjust Social Security payments as well as other federal benefits and pensions for changes in the cost of living.9 It also shifts federal income tax brackets to ensure taxpayers aren’t subjected to a higher marginal rate as a result of inflation.</p>
-<h2 id="Consumer-Price-Index-CPI-Formulas"><a href="#Consumer-Price-Index-CPI-Formulas" class="headerlink" title="Consumer Price Index (CPI) Formulas"></a>Consumer Price Index (CPI) Formulas</h2><p>The more common CPI-U calculation entails two primary formulas. The first is used to determine the current cost of the weighted-average basket of products, while the second is used to analyze the year-over-year change.</p>
-<h3 id="Annual-CPI-Formula"><a href="#Annual-CPI-Formula" class="headerlink" title="Annual CPI Formula"></a>Annual CPI Formula</h3><p>To calculate the annual CPI, the BLS divides the value of a specific basket of goods today compared to one year ago:</p>
-<blockquote>
-<p>Annual CPI&#x3D;Value of Basket in Current YearValue of Basket in Prior Year×100Annual CPI&#x3D;Value of Basket in Prior YearValue of Basket in Current Year×100</p>
-</blockquote>
-<p>As mentioned earlier, the basket of goods and services used in the CPI calculation is a composite of popular items commonly purchased by Americans. The weight of each component of the <a target="_blank" rel="noopener" href="https://www.investopedia.com/terms/b/basket.asp">basket</a> is in proportion to how they are sold. The annual CPI is reported as a whole number, and the figure is often greater than 100 (assuming current market prices are appreciating).</p>
-<p>Then, the BLS uses the current year’s CPI and the prior year’s CPI to calculate the inflation rate.</p>
-<blockquote>
-<p>Inflation Rate&#x3D;New CPI−Prior CPIPrior CPI×100Inflation Rate&#x3D;Prior CPINew CPI−Prior CPI×100</p>
-</blockquote>
-<p>The inflation rate can be calculated for a given month or annual period; in either case, the appropriate new and prior period must be selected. The inflation rate is reported as a percentage and is often positive (assuming current market prices are appreciating).</p>
-<h2 id="Consumer-Price-Index-CPI-Categories"><a href="#Consumer-Price-Index-CPI-Categories" class="headerlink" title="Consumer Price Index (CPI) Categories"></a>Consumer Price Index (CPI) Categories</h2><p>The <a target="_blank" rel="noopener" href="https://www.bls.gov/news.release/cpi.nr0.htm">monthly CPI release</a> from the BLS leads with the change from the prior month for the overall CPI-U as well as its key subcategories, along with the unadjusted change year-over-year. The BLS detailed tables show price changes for a variety of goods and services organized by eight umbrella spending categories.</p>
-<p>Subcategories estimate price changes for everything from tomatoes and salad dressing to auto repairs and sporting events tickets. Price change for each subcategory is provided with and without <a target="_blank" rel="noopener" href="https://www.investopedia.com/terms/s/seasonal-adjustment.asp">seasonal adjustment</a>.10 In addition to the national CPI indexes, BLS publishes CPI data for U.S. regions, sub-regions, and major metropolitan areas. The metro data is subject to wider fluctuations and is useful mainly for identifying price changes based on local conditions.11</p>
-<p>The table below represents the CPI basket weighted distribution amongst the eight major expense categories. Be mindful that some subcategories may be difficult to spot within their major categories. For example, automobiles are classified under commodities.12</p>
-<table>
-<thead>
-<tr>
-<th align="left">CPI Categories by Weight as of June 2023</th>
-<th></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>Group</strong></td>
-<td><strong>Weight</strong></td>
-</tr>
-<tr>
-<td align="left">Housing</td>
-<td>34.7%</td>
-</tr>
-<tr>
-<td align="left">Food</td>
-<td>13.4%</td>
-</tr>
-<tr>
-<td align="left">Transportation</td>
-<td>5.9%</td>
-</tr>
-<tr>
-<td align="left">Commodities</td>
-<td>21.4%</td>
-</tr>
-<tr>
-<td align="left">Health Care</td>
-<td>6.4%</td>
-</tr>
-<tr>
-<td align="left">Energy</td>
-<td>6.9%</td>
-</tr>
-<tr>
-<td align="left">Education</td>
-<td>4.8%</td>
-</tr>
-<tr>
-<td align="left">Other Expenses</td>
-<td>6.5%</td>
-</tr>
-<tr>
-<td align="left"><strong>Total Expenses</strong></td>
-<td><strong>100%</strong></td>
-</tr>
-</tbody></table>
-<p>Source: Bureau of Labor Statistics</p>
-<h2 id="How-Is-the-Consumer-Price-Index-CPI-Used"><a href="#How-Is-the-Consumer-Price-Index-CPI-Used" class="headerlink" title="How Is the Consumer Price Index (CPI) Used?"></a>How Is the Consumer Price Index (CPI) Used?</h2><p>The CPI is widely used by financial market participants to gauge inflation and by the <a target="_blank" rel="noopener" href="https://www.investopedia.com/terms/f/federalreservebank.asp">Federal Reserve</a> to calibrate its monetary policy. Businesses and consumers also use the CPI to make informed economic decisions. Since CPI measures the change in consumers’ purchasing power, it is often a key factor in pay negotiations. </p>
-<h3 id="The-Federal-Reserve"><a href="#The-Federal-Reserve" class="headerlink" title="The Federal Reserve"></a>The Federal Reserve</h3><p>The Fed uses CPI data to determine economic policy. With a target inflation rate of 2%, the Fed may enact expansionary monetary policy to stimulate the economy should market growth slow, or enact contractionary monetary policy should the economy (and therefore prices) grow too quickly. In response to higher-than-desired inflation rates via the CPI, the Fed adjusts the <a target="_blank" rel="noopener" href="https://www.investopedia.com/terms/f/federalfundsrate.asp">Fed funds rate</a>.13</p>
-<h3 id="Other-Government-Agencies"><a href="#Other-Government-Agencies" class="headerlink" title="Other Government Agencies"></a>Other Government Agencies</h3><p>The <a target="_blank" rel="noopener" href="https://www.investopedia.com/terms/c/cola.asp">cost-of-living adjustments (COLAs)</a> based on the CPI affect federal payments to the approximately 70 million Americans receiving Social Security and <a target="_blank" rel="noopener" href="https://www.investopedia.com/terms/s/ssi.asp">Supplemental Security Income (SSI)</a> benefits. They also apply to federal pension payments, school lunch subsidies, and income tax brackets.39</p>
-<h3 id="Housing"><a href="#Housing" class="headerlink" title="Housing"></a>Housing</h3><p><a target="_blank" rel="noopener" href="https://www.investopedia.com/mortgage-rates-5094943">Mortgage rates</a> (and other forms of long-term debt) are often impacted by rates set by government agencies. As the CPI increases and the government enacts policy changes to slow inflation, rates often increase. On the other hand, landlords may use CPI information to adequately assess what annual rent increases for renters should be.1415</p>
-<h3 id="Financial-Markets"><a href="#Financial-Markets" class="headerlink" title="Financial Markets"></a>Financial Markets</h3><p>Financial market prices are driven by countless factors. One such factor is the CPI, as reactionary Fed policies directly impact economic growth, corporate profits, and consumer spending ability.3</p>
-<p>A higher CPI often means that a less stringent government policy is generally in place. This means that debt is often easier to obtain for cheaper and that individuals have greater spending capacity. On the other hand, lower or decreasing CPI may indicate that the government may ease policy that helps boost the economy.</p>
-<h3 id="Labor-Markets"><a href="#Labor-Markets" class="headerlink" title="Labor Markets"></a>Labor Markets</h3><p>The CPI and its components are also used as a deflator for other economic indicators, including <a target="_blank" rel="noopener" href="https://www.investopedia.com/terms/r/retail-sales.asp">retail sales</a> and hourly&#x2F;weekly earnings, to separate fundamental change from that reflecting change in prices. Employees may turn to CPI reports when approaching their employers for a raise based on nationwide increases in labor rates as well as pricing.16</p>
-<p>Be mindful that the CPI is published using national data; employees may be more suited to using local data to better understand their specific situation. In addition, some workers covered by collective bargaining agreements may have their wages tied to changes in CPI.</p>
-<h3 id=""><a href="#" class="headerlink" title=""></a></h3><p>The BLS reports the CPI on a fixed, monthly cadence. A schedule of prior and future releases can be found on the BLS website, and the CPI is always released at 8:30 a.m. Eastern Time.17</p>
-<h2 id="Consumer-Price-Index-CPI-vs-Unemployment"><a href="#Consumer-Price-Index-CPI-vs-Unemployment" class="headerlink" title="Consumer Price Index (CPI) vs. Unemployment"></a>Consumer Price Index (CPI) vs. Unemployment</h2><p>In the broadest sense, the CPI and <a target="_blank" rel="noopener" href="https://www.investopedia.com/terms/u/unemployment.asp">unemployment</a> rates are often inversely related. This is not always the case in every economy, but the Federal Reserve often attempts to decrease one metric while balancing the other. For example, in response to the COVID-19 pandemic, the Federal Reserve took unprecedented supervisory and regulatory actions to stimulate the economy.18</p>
-<p>As a result, the labor market strengthened and returned to pre-pandemic rates by March 2022; however, this stimulus has resulted in the highest CPI calculations in decades.19</p>
-<p>As a result of higher-than-targeted CPI calculations, the Federal Reserve began raising interest rates and tapering certain asset purchases.20 On one hand, these measures aim to slow economic growth, make it more expensive for consumers to acquire debt, and stem monetary supply growth.</p>
-<p>On the other hand, these additional expenses may burden households and make companies less profitable. All else being equal when the Federal Reserve attempts to lower the CPI, it runs the risk of unintentionally increasing unemployment rates.</p>
-<h2 id="Critiques-of-Consumer-Price-Index-CPI-Methodology"><a href="#Critiques-of-Consumer-Price-Index-CPI-Methodology" class="headerlink" title="Critiques of Consumer Price Index (CPI) Methodology"></a>Critiques of Consumer Price Index (CPI) Methodology</h2><p>Because the CPI Index is so crucial to economic policy and decision-making, its methodology has long been controversial, drawing claims it either understates or overstates <a target="_blank" rel="noopener" href="https://www.investopedia.com/terms/i/inflation.asp">inflation</a>. A panel of economists commissioned by Congress to study the issue in 1995 concluded the CPI overstated inflation and was followed by calculation changes to better reflect substitution effects.21</p>
-<p>More recently, critics have claimed that adjustments for changes in product quality and features understate the CPI. According to the BLS, the particularly controversial hedonic adjustments, which use regression techniques to adjust prices for new features on a relatively small proportion of the CPI items, have a net effect close to zero on the index.22</p>
-<p>As the traditional CPI-U calculation only measures inflation for urban populations, it remains a less-than-reliable source of data for individuals living in rural areas. In addition, the CPI does not explicitly state how different demographics may be impacted by inflation. For example, soaring education costs may adversely impact younger individuals, while the impact of increasing elderly care costs is felt by a different group of individuals.</p>
-<p>This notion is also widely attributable to individuals with varying degrees of income. For example, lower-income individuals who contribute more gross income towards necessities of shelter and food will skew differently than households with larger disposable income. For this reason, the CPI may not adequately reflect each individual’s experience in regard to costs and changes over time.</p>
-<h2 id="What-Is-the-Current-CPI"><a href="#What-Is-the-Current-CPI" class="headerlink" title="What Is the Current CPI?"></a>What Is the Current CPI?</h2><p>The annual change in the CPI was 3.0% for the 12-month period ending June 2023. This was a 0.2% increase from the previous month.8</p>
-<h2 id="How-Is-the-Consumer-Price-Index-Used"><a href="#How-Is-the-Consumer-Price-Index-Used" class="headerlink" title="How Is the Consumer Price Index Used?"></a>How Is the Consumer Price Index Used?</h2><p>The CPI Index is an inflation indicator closely watched by policymakers and financial markets. A related CPI measure is used to calculate cost-of-living adjustments for federal benefit payments.</p>
-<h2 id="How-Is-the-CPI-Calculated"><a href="#How-Is-the-CPI-Calculated" class="headerlink" title="How Is the CPI Calculated?"></a>How Is the CPI Calculated?</h2><p>The Bureau of Labor Statistics samples 80,000 prices monthly to calculate the CPI, weighing the index for each product or service in proportion to its share of recent consumer spending to calculate the overall change in prices. The calculation also factors in the substitution effect as consumers shift spending away from the products rising in price on a relative basis. The CPI also adjusts for changes in product quality and features. The numbers are provided with and without seasonal adjustments.</p>
-<h2 id="What-Are-Some-Criticisms-of-the-CPI"><a href="#What-Are-Some-Criticisms-of-the-CPI" class="headerlink" title="What Are Some Criticisms of the CPI?"></a>What Are Some Criticisms of the CPI?</h2><p>Over the years, the CPI has frequently drawn criticism that it has either understated or overstated inflation. Because the CPI is based on consumer spending, it doesn’t track third-party reimbursements for healthcare and significantly underweights healthcare relative to its proportion in the GDP as a result. On the other hand, criticism concerning the quality adjustments used in the CPI has been widely discounted by economists.</p>
-<h2 id="The-Bottom-Line"><a href="#The-Bottom-Line" class="headerlink" title="The Bottom Line"></a>The Bottom Line</h2><p>The Consumer Price Index is an important economic metric. It measures the average change in prices paid by consumers over a period of time for a basket of goods and services. The index is calculated and published monthly by the Bureau of Labor Statistics. It is among the most common measures of inflation, indicating the health and direction of the economy. It also serves in other capacities, notably to help make adjustments to certain income payments, such as Social Security and pensions for federal civil service retirees.</p>
-
+        <p class="article-excerpt-content">
+          https://www.investopedia.com/terms/c/consumerpriceindex.asp
+Consumer Price Index (CPI) Explained: What It Is and How It’s UsedBy 
+JASON FERNANDO
+Updated July 13, 2023
+Reviewed by 
+PETER WESTFALL
+Reviewed by Peter Westfall
+Full Bio
+Peter Westfall i...
+        </p>
+        <p class="article-more-link">
+          <a href="/2023/07/11/economics/untitled%20folder/cpi/#more">Read More</a>
+        </p>
       
     </div>
-    <footer class="entry-meta entry-footer">
+    <footer class="article-footer">
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Economics/">Economics</a>, <a class="article-category-link" href="/categories/Economics/Basics/">Basics</a>, <a class="article-category-link" href="/categories/Economics/Basics/Index/">Index</a>
+      
+      
+      
 
-      
-      
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
+
   
     <article id="post-economics/untitled folder/pmi"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+  <div id="articleInner" class="article-inner">
     
     
       <header class="article-header">
@@ -578,47 +605,97 @@
     <div class="article-meta">
       
 	<a href="/2023/07/11/economics/untitled%20folder/pmi/" class="article-date">
-	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">July 11, 2023</time>
+	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">2023-07-11</time>
 	</a>
 
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Economics/">Economics</a>, <a class="article-category-link" href="/categories/Economics/Basics/">Basics</a>, <a class="article-category-link" href="/categories/Economics/Basics/Index/">Index</a>
- 
+    <a class="article-category-link" href="/categories/Economics/">Economics</a><a class="article-category-link" href="/categories/Economics/Basics/">Basics</a><a class="article-category-link" href="/categories/Economics/Basics/Index/">Index</a>
+
       
+      
+
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Purchasing Managers’ Index (PMI) Definition and How It Works<br>By THE INVESTOPEDIA TEAM<br>Investopedia logo<br>Full Bio</p>
-<p>Investopedia contributors come from a range of backgrounds, and over 24 years there have been thousands of expert writers and editors who have contributed.</p>
-<p>What Is the Purchasing Managers’ Index (PMI)?<br>The Purchasing Managers’ Index (PMI) is an index of the prevailing direction of economic trends in the manufacturing and service sectors. It consists of a diffusion index that summarizes whether market conditions are expanding, staying the same, or contracting as viewed by purchasing managers. The purpose of the PMI is to provide information about current and future business conditions to company decision-makers, analysts, and investors.</p>
-<p>KEY TAKEAWAYS<br>The Purchasing Managers Index is a measure of the prevailing direction of economic trends in manufacturing.<br>The PMI is based on a monthly survey of supply chain managers across 19 industries, covering both upstream and downstream activity.<br>The value and movements in the PMI and its components can provide useful insight to business decision makers, market analysts, and investors, and is a leading indicator of overall economic activity in the U.S.<br>Purchasing Managers’ Index (PMI)<br>Formula and Calculation of the Purchasing Managers’ Index (PMI)<br>The PMI is calculated as: </p>
-<p>PMI &#x3D; (P1 * 1) + (P2 * 0.5) + (P3 * 0)<br>Where:</p>
-<p>P1 &#x3D; percentage of answers reporting an improvement<br>P2 &#x3D; percentage of answers reporting no change<br>P3 &#x3D; percentage of answers reporting a deterioration<br>Other companies also produce PMI numbers, including IHS Markit Group, which puts out the PMI for various countries outside the U.S.<br>How the PMI Works<br>The PMI is a key economic tool and is among the most reliable leading indicators of the U.S. economy. The index is reported by manufacturing and services. There is also a hospital PMI that is released on a monthly basis. The index sheds insight into the business environment and also helps companies get a grasp on where the economy is headed.</p>
-<p>It is a survey-based indicator that is compiled and released each month by the Institute for Supply Management (ISM). The survey is sent to senior executives at more than 400 companies in 19 primary industries, which are weighted by their contribution to U.S. gross domestic product (GDP).</p>
-<p>The surveys include questions about business conditions and any changes, whether they are improving or deteriorating, or have no changes. The PMI is based on five major survey areas—each of which is weighted equally:</p>
-<p>New orders<br>Inventory levels<br>Production<br>Supplier deliveries<br>Employment<br>The headline PMI is a number from 0 to 100. A PMI above 50 represents an expansion when compared with the previous month. A PMI reading under 50 represents a contraction while a reading at 50 indicates no change. The further away from 50, the greater the level of change.</p>
-
+        <p class="article-excerpt-content">
+          Purchasing Managers’ Index (PMI) Definition and How It WorksBy THE INVESTOPEDIA TEAMInvestopedia logoFull Bio
+Investopedia contributors come from a range of backgrounds, and over 24 years there have been thousands of expert writers and editors who...
+        </p>
+        <p class="article-more-link">
+          <a href="/2023/07/11/economics/untitled%20folder/pmi/#more">Read More</a>
+        </p>
       
     </div>
-    <footer class="entry-meta entry-footer">
+    <footer class="article-footer">
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Economics/">Economics</a>, <a class="article-category-link" href="/categories/Economics/Basics/">Basics</a>, <a class="article-category-link" href="/categories/Economics/Basics/Index/">Index</a>
+      
+      
+      
 
-      
-      
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
+
+  
+    <article id="post-general/aphrodite/Indigo deer"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2023/07/11/general/aphrodite/Indigo%20deer/">Indigo Deer</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2023/07/11/general/aphrodite/Indigo%20deer/" class="article-date">
+	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">2023-07-11</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/General-Works/">General Works</a><a class="article-category-link" href="/categories/General-Works/Aphrodite-In-Precarious-Multiform/">Aphrodite In Precarious Multiform</a>
+
+      
+      
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p class="article-excerpt-content">
+          想起她我简直痛苦（恶心）万分，但是如若真的如此未免对她太过残忍了。反正我从来没有当面与她讲过你让我恶心至极，我至少还保留有这样微渺的良知。因为太恶心了，不太想输入我写过的与她有关的文字，所以就算了吧
+
+        </p>
+        <p class="article-more-link">
+          <a href="/2023/07/11/general/aphrodite/Indigo%20deer/#more">Read More</a>
+        </p>
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+      
+
+    </footer>
+  </div>
+  
+</article>
+
+<!-- Table of Contents -->
+
+
   
     <article id="post-language/English/IELTS"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+  <div id="articleInner" class="article-inner">
     
     
       <header class="article-header">
@@ -634,39 +711,44 @@
     <div class="article-meta">
       
 	<a href="/2023/07/11/language/English/IELTS/" class="article-date">
-	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">July 11, 2023</time>
+	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">2023-07-11</time>
 	</a>
 
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Language/">Language</a>, <a class="article-category-link" href="/categories/Language/English/">English</a>
- 
+    <a class="article-category-link" href="/categories/Language/">Language</a><a class="article-category-link" href="/categories/Language/English/">English</a>
+
       
+      
+
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p>臭几把考试，我最讨厌</p>
+        <p class="article-excerpt-content">
+          臭几把考试，我最讨厌
 
+        </p>
+        <p class="article-more-link">
+          <a href="/2023/07/11/language/English/IELTS/#more">Read More</a>
+        </p>
       
     </div>
-    <footer class="entry-meta entry-footer">
+    <footer class="article-footer">
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Language/">Language</a>, <a class="article-category-link" href="/categories/Language/English/">English</a>
+      
+      
+      
 
-      
-      
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
+
   
     <article id="post-language/English/conclusion"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+  <div id="articleInner" class="article-inner">
     
     
       <header class="article-header">
@@ -682,322 +764,90 @@
     <div class="article-meta">
       
 	<a href="/2023/07/11/language/English/conclusion/" class="article-date">
-	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">July 11, 2023</time>
+	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">2023-07-11</time>
 	</a>
 
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Language/">Language</a>, <a class="article-category-link" href="/categories/Language/English/">English</a>
- 
+    <a class="article-category-link" href="/categories/Language/">Language</a><a class="article-category-link" href="/categories/Language/English/">English</a>
+
       
+      
+
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p>2023</p>
-<p>英语几乎是我专业性最强的一项技能，但是我几乎很少会总结相关的经验。有些人说我英语很好，尤其是会有些被我的雅思阅读部分满分所惊叹到，当他们询问我的一些学习经验的时候我却几乎非常难以言说出缘由。我正在非常开心的在这个网站上整理我所有的精神与知识广谱的时候甚至几乎完全忘了要整理相关的内容，不过我想我原本有想整理一些我的英语语言的写作，也许那可以算作是一些和英语学习相关的东西，不过再稍微多深入看两眼就可以感觉到，英语几乎无限地充盈了我精神的空间，并且具象的体现也是非常的明显的，他们在这里无处不在。</p>
-<p>2023.7.25.</p>
-<p>我之前有想把自己的语言光谱彻底转换为英语，但是我现在感觉我必须要有一个语言环境(也就是我身边95%的语言都要是英语)才能做到这一点，我可以非常明确地想象到那种感受，并且那是非常迷人的感受，在我的语言环境切换到英语以后一周内我就可以开始享受它，我只需要一周的适应时间(我感觉两天都行)就可以彻底把自己转变到英语生态里，那将是极其舒适的。在一个纯非第二语言的环境里建立起系统成熟的第二语言的整体系统真的是极其特别的一个事情，我很难描述这到底是一个怎样的事情，但是非常的特殊。</p>
-
+        <p class="article-excerpt-content">
+          2023
+英语几乎是我专业性最强的一项技能，但是我几乎很少会总结相关的经验。有些人说我英语很好，尤其是会有些被我的雅思阅读部分满分所惊叹到，当他们询问我的一些学习经验的时候我却几乎非常难以言说出缘由。我正在非常开心的在这个网站上整理我所有的精神与知识广谱的时候甚至几乎完全忘了要整理相关的内容，不过我想我原本有想整理一些我的英语语言的写作，也许那可以算作是一些和英语学习相关的东西，不过再稍微多深入看两眼就可以感觉到，英语几乎无限地充盈了我精神的空间，并且具象的体现也是非常的明显的，他们在这里...
+        </p>
+        <p class="article-more-link">
+          <a href="/2023/07/11/language/English/conclusion/#more">Read More</a>
+        </p>
       
     </div>
-    <footer class="entry-meta entry-footer">
+    <footer class="article-footer">
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Language/">Language</a>, <a class="article-category-link" href="/categories/Language/English/">English</a>
+      
+      
+      
 
-      
-      
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
-  
-    <article id="post-language/English/kundera"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2023/07/11/language/English/kundera/">Milan Kundera was a writer of caustic irony and mordant wit 2023-7-13</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-meta">
-      
-	<a href="/2023/07/11/language/English/kundera/" class="article-date">
-	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">July 11, 2023</time>
-	</a>
-
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Language/">Language</a>, <a class="article-category-link" href="/categories/Language/English/">English</a>, <a class="article-category-link" href="/categories/Language/English/The-Economist/">The Economist</a>, <a class="article-category-link" href="/categories/Language/English/The-Economist/Culture/">Culture</a>
- 
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="Milan-Kundera-was-a-writer-of-caustic-irony-and-mordant-wit"><a href="#Milan-Kundera-was-a-writer-of-caustic-irony-and-mordant-wit" class="headerlink" title="Milan Kundera was a writer of caustic irony and mordant wit"></a>Milan Kundera was a writer of caustic irony and mordant wit</h1><h2 id="He-believed-the-novelist-is-“neither-historian-nor-prophet”-but-“an-explorer-of-existence”"><a href="#He-believed-the-novelist-is-“neither-historian-nor-prophet”-but-“an-explorer-of-existence”" class="headerlink" title="He believed the novelist is “neither historian nor prophet” but “an explorer of existence”"></a>He believed the novelist is “neither historian nor prophet” but “an explorer of existence”</h2><p>In milan kundera’s most famous novel, “The Unbearable Lightness of Being”, a dissident Czech artist feted in Germany finds herself lauded as a “saint or martyr”. Sabina protests, however, that her “enemy is kitsch, not Communism!” Mr Kundera, who died on July 11th aged 94, moved from a fervent youthful socialism to global renown as an exiled author who dissected and derided the follies and cruelties of the Soviet satellite regime that ruled his homeland until 1989. He insisted always, though, on the supremacy of art over any ideology, and championed the novelist’s vocation in an era “befogged with ideas and indifferent to works”.</p>
-<p>For Mr Kundera, the deadly foe of truthful art was kitsch: the narcissistic sentimentality that, under any social system, effaces realities and encourages people to “gaze into the mirror of the beautifying lie”. With caustic irony, mordant wit and acrobatic literary skill, he mocked the beautifying lie wherever he found it—in politics, in culture or in personal relationships. Before and after the collapse of the Soviet bloc, Mr Kundera became one of the world’s best-known critics of the abstract idealism that can lead to tyranny. In agile, fragmentary, essay-like fictions, he took aim at the belief in history as a progressive “Grand March” towards “brotherhood, equality, justice, happiness”.</p>
-<p>Yet his scorn for “totalitarian” idealists had its roots in his experience as one of them. Born in Brno in 1929 as a musician’s son, he studied literature in Prague; as communists took power in 1948, he produced poetry to glorify their revolution. “I too once danced in a ring,” he writes in “The Book of Laughter and Forgetting”. He too felt “the magic qualities of the circle”.</p>
-<p>Soon, the circle broke. A gag that went wrong, commemorated in “The Joke”, led to his expulsion from the party in 1950. Although he returned to party loyalty for a while, and taught literature to film students in Prague, “The Joke”—published in 1967, then banned—set him on the road to official disgrace, dissidence and exile. Having understood “what it is for a man to live through the death of his nation” after the Soviet invasion in 1968, he lived in France from 1975. Later, he would write in French.</p>
-<p>Playful, elusive, experimental, Mr Kundera eschewed not just the “Grand March” but the grand statement. “My lifetime ambition,” he told the <em>Paris Review</em>, “has been to unite the utmost seriousness of question with the utmost lightness of form.” Music, his first love, gave him a model. His novels consist of sets of variations (often in seven parts) composed in the vein he admired in the greatest central European writers: “the privileged sphere of analysis, lucidity, irony”.</p>
-<p>After his breakthroughs with “The Book of Laughter and Forgetting” (1979) and “The Unbearable Lightness of Being” (1984), readers and writers around the world—from Philip Roth to Salman Rushdie—found in Mr Kundera a liberating inspiration. Sceptics deemed him chilly, manipulative, aloof. His cold-eyed, even abrasive, appraisal of both women’s and men’s romantic lives brought charges of misogyny. He revelled in not only “the undiscovered comic side to history” but also “the (hard-to-take) comic side of sexuality”.</p>
-<p>Although later novels—he wrote ten—shrank in size and impact, he kept faith with the art of fiction. For Mr Kundera, the novelist is “neither historian nor prophet” but “an explorer of existence”. Fiction preserves reality in an age of oblivion, since “the struggle of man against power is the struggle of memory against forgetting.” And humour gives fiction its resilience: not just funny turns, but an “unobtrusive light” that “glows over the vast landscape of life”. Its mortal foe, both in communist and consumerist society, will always be the dishonesty and phoney solidarity of kitsch. Against humourless sentimentalists and ideologists, novelists opened a realm of freedom and tolerance, Mr Kundera thought: a place “where no one owns the truth and everyone has the right to be understood.” </p>
-<p><em>For more on the latest books, films, tv shows, albums and controversies, sign up to <a target="_blank" rel="noopener" href="https://www.economist.com/culture/2022/11/23/introducing-plot-twist-our-new-culture-newsletter">Plot Twist</a>, our weekly subscriber-only newsletter</em></p>
-
-      
-    </div>
-    <footer class="entry-meta entry-footer">
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Language/">Language</a>, <a class="article-category-link" href="/categories/Language/English/">English</a>, <a class="article-category-link" href="/categories/Language/English/The-Economist/">The Economist</a>, <a class="article-category-link" href="/categories/Language/English/The-Economist/Culture/">Culture</a>
-
-      
-      
-    </footer>
-    <hr class="entry-footer-hr">
-  </div>
-  
-</article>
-
-<!-- Table of Contents -->
 
   
 
 
   <nav id="page-nav">
     
-    <a class="extend prev" rel="prev" href="/page/3/">Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/5/">Next</a>
+    <a class="extend prev" rel="prev" href="/page/3/">&laquo; Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/5/">Next &raquo;</a>
   </nav>
 
 </section>
-          <aside id="sidebar">
-  
-    <div style="margin: 20px 0;">
-	<div id="search-form-wrap">
-
-    <form class="search-form">
-        <label style="width: 72%;">
-            <span class="screen-reader-text">Search for:</span>
-            <input type="search" class="search-field" style="height: 36px; width: 100%;" placeholder=" Search…" value="" name="s" title="Search for:">
-        </label>
-        <input type="submit" class="search-form-submit" value="Search">
-    </form>
-    <div class="ins-search">
-    <div class="ins-search-mask"></div>
-    <div class="ins-search-container">
-        <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="Type something..."/>
-            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
-        </div>
-        <div class="ins-section-wrapper">
-            <div class="ins-section-container"></div>
-        </div>
-    </div>
-</div>
-<script>
-(function (window) {
-    var INSIGHT_CONFIG = {
-        TRANSLATION: {
-            POSTS: 'Posts',
-            PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
-            UNTITLED: '(Untitled)',
-        },
-        ROOT_URL: '/',
-        CONTENT_URL: '/content.json',
-    };
-    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
-})(window);
-</script>
-
-<script src="/js/insight.js"></script>
-
-
-</div>
-</div>
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Connect With Us</h3>
-    <div class="widget widget_athemes_social_icons">
-
-    	<ul class="clearfix widget-social-icons">   
-    	
-   			<li><a target="_blank" rel="noopener" href="https://github.com/iTimeTraveler" title="Github"><i class="fa fa-github" aria-hidden="true"></i></a></li> 
-
-   		
-   			<li><a href="" title="Weibo"><i class="fa fa-weibo" aria-hidden="true"></i></a></li> 
-
-   		
-   			<li><a href="" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> 
-
-   		
-   			<li><a href="" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> 
-
-   		
-   			<li><a href="" title="Google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li> 
-
-   		
-   			<li><a href="" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> 
-
-   		
-   		</ul>
-
-
-   		<!--
-   		<ul class="clearfix widget-social-icons">   		
-   		<li class="widget-si-twitter"><a target="_blank" rel="noopener" href="http://twitter.com" title="Twitter"><i class="ico-twitter"></i></a></li> 
-		<li class="widget-si-facebook"><a target="_blank" rel="noopener" href="http://facebook.com" title="Facebook"><i class="ico-facebook"></i></a></li>
-			<li class="widget-si-gplus"><a target="_blank" rel="noopener" href="http://plus.google.com" title="Google+"><i class="ico-gplus"></i></a></li>
-			<li class="widget-si-pinterest"><a target="_blank" rel="noopener" href="http://pinterest.com" title="Pinterest"><i class="ico-pinterest"></i></a></li>
-			<li class="widget-si-flickr"><a target="_blank" rel="noopener" href="http://flickr.com" title="Flickr"><i class="ico-flickr"></i></a></li>
-			<li class="widget-si-instagram"><a target="_blank" rel="noopener" href="http://instagram.com" title="Instagram"><i class="ico-instagram"></i></a></li>
-		</ul> -->
-
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget_athemes_tabs">
-    <ul id="widget-tab" class="clearfix widget-tab-nav">
-      <li class="active"><a>Recent Posts</a></li>
-    </ul>
-    <div class="widget">
-      <ul>
-        
-          <li class="clearfix">
-
-            
-              <div class="widget-entry-summary" style="margin: 0;">
-            
-
-              <h6 style="margin: 0;"><a href="/2023/09/30/%E5%AF%86%E7%A0%81/password/">密码指南</a></h6>
-              <span>September 30, 2023</span>
-            </div>
-
-          </li>
-        
-          <li class="clearfix">
-
-            
-              <div class="widget-entry-summary" style="margin: 0;">
-            
-
-              <h6 style="margin: 0;"><a href="/2023/08/09/language/Spanish/Spanish/">Basic Words</a></h6>
-              <span>August 9, 2023</span>
-            </div>
-
-          </li>
-        
-          <li class="clearfix">
-
-            
-              <div class="widget-entry-summary" style="margin: 0;">
-            
-
-              <h6 style="margin: 0;"><a href="/2023/08/09/language/English/vocab/">Vocabulary</a></h6>
-              <span>August 9, 2023</span>
-            </div>
-
-          </li>
-        
-          <li class="clearfix">
-
-            
-              <div class="widget-entry-summary" style="margin: 0;">
-            
-
-              <h6 style="margin: 0;"><a href="/2023/08/09/language/English/Thegreatgatsby/">The Great Gatsby</a></h6>
-              <span>August 9, 2023</span>
-            </div>
-
-          </li>
-        
-          <li class="clearfix">
-
-            
-              <div class="widget-entry-summary" style="margin: 0;">
-            
-
-              <h6 style="margin: 0;"><a href="/2023/08/08/general/odyssey/odyssey/">Odyssey</a></h6>
-              <span>August 8, 2023</span>
-            </div>
-
-          </li>
-        
-          <li class="clearfix">
-
-            
-              <div class="widget-entry-summary" style="margin: 0;">
-            
-
-              <h6 style="margin: 0;"><a href="/2023/07/23/Biology/Brain%20Science/UNI/">My World</a></h6>
-              <span>July 23, 2023</span>
-            </div>
-
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Categories</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Biology/">Biology</a><span class="category-list-count">3</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Biology/Brain-Science/">Brain Science</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Biology/Psychology/">Psychology</a><span class="category-list-count">2</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Computer-Science/">Computer Science</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Economics/">Economics</a><span class="category-list-count">6</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Economics/Basics/">Basics</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Economics/Basics/Index/">Index</a><span class="category-list-count">2</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Economics/The-Economist/">The Economist</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/General-Works/">General Works</a><span class="category-list-count">13</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/General-Works/Aphrodite-In-Precarious-Multiform/">Aphrodite In Precarious Multiform</a><span class="category-list-count">7</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/General-Works/Universal-Sets/">Universal Sets</a><span class="category-list-count">5</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/General-Works/Universal-Sets/English/">English</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/General-Works/Universal-Sets/%E4%B8%AD%E6%96%87/">中文</a><span class="category-list-count">4</span></li></ul></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Geography/">Geography</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Geography/Climate-Issues/">Climate Issues</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Geography/Global-Transportation/">Global Transportation</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/History-Politics/">History & Politics</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/History-Politics/American-History-Politics/">American History & Politics</a><span class="category-list-count">2</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Language/">Language</a><span class="category-list-count">15</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Language/English/">English</a><span class="category-list-count">10</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Language/English/English-Literature/">English Literature</a><span class="category-list-count">4</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Language/English/English-Literature/Lolita/">Lolita</a><span class="category-list-count">3</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Language/English/The-Economist/">The Economist</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Language/English/The-Economist/Culture/">Culture</a><span class="category-list-count">1</span></li></ul></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Language/Japanese/">Japanese</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Language/Spanish/">Spanish</a><span class="category-list-count">3</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Language/Spanish/After-Hours/">After Hours</a><span class="category-list-count">1</span></li></ul></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Mathematics/">Mathematics</a><span class="category-list-count">3</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Mathematics/Basic-Tools/">Basic Tools</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Music/">Music</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Physics/">Physics</a><span class="category-list-count">7</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Physics/AMO/">AMO</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Physics/Acoustics/">Acoustics</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Physics/Atomic-Bomb/">Atomic Bomb</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Physics/Quantum-Physics/">Quantum Physics</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Physics/Relativity/">Relativity</a><span class="category-list-count">2</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%AF%86%E7%A0%81%E6%8C%87%E5%8D%97/">密码指南</a><span class="category-list-count">1</span></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/wct/" rel="tag">wct</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/wct2/" rel="tag">wct2</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/wct3/" rel="tag">wct3</a><span class="tag-list-count">1</span></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/wct/" style="font-size: 10px;">wct</a> <a href="/tags/wct2/" style="font-size: 10px;">wct2</a> <a href="/tags/wct3/" style="font-size: 10px;">wct3</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/09/">September 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/08/">August 2023</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/07/">July 2023</a><span class="archive-list-count">53</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/06/">June 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/08/">August 2022</a><span class="archive-list-count">1</span></li></ul>
-    </div>
-  </div>
-
-
-  
-</aside>
         
       </div>
+      
+        <div align="center" style="margin-top: 30px;"><hr class="hr" style="margin:0px; height:3px;"></div>
+      
+      <footer id="footer">
+  
 
+  <div class="container">
+      	<div class="row">
+	      <p> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/iTimeTraveler/hexo-theme-hiker" target="_blank">Hexo-theme-hiker</a> </p>
+	      <p id="copyRightEn">Copyright &copy; 2013 - 2024 Hexo All Rights Reserved.</p>
+	      
+	      
+    		<p class="busuanzi_uv">
+				UV : <span id="busuanzi_value_site_uv"></span> |  
+				PV : <span id="busuanzi_value_site_pv"></span>
+		    </p>
+  		   
+		</div>
+
+		
+  </div>
+</footer>
+
+
+<!-- min height -->
+
+<script>
+    var wrapdiv = document.getElementById("wrap");
+    var contentdiv = document.getElementById("content");
+    var allheader = document.getElementById("allheader");
+
+    wrapdiv.style.minHeight = document.body.offsetHeight + "px";
+    if (allheader != null) {
+      contentdiv.style.minHeight = document.body.offsetHeight - allheader.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    } else {
+      contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    }
+</script>
     </div>
     <!-- <nav id="mobile-nav">
   
@@ -1012,47 +862,7 @@
     <a href="/about" class="mobile-nav-link">About</a>
   
 </nav> -->
-    <footer id="footer" class="site-footer">
-  
-
-  <div class="clearfix container">
-      <div class="site-info">
-	      &copy; 2024 Hexo All Rights Reserved.
-        
-            <span id="busuanzi_container_site_uv">
-              本站访客数<span id="busuanzi_value_site_uv"></span>人次  
-              本站总访问量<span id="busuanzi_value_site_pv"></span>次
-            </span>
-          
-      </div>
-      <div class="site-credit">
-        Theme by <a href="https://github.com/iTimeTraveler/hexo-theme-hipaper" target="_blank">hipaper</a>
-      </div>
-  </div>
-</footer>
-
-
-<!-- min height -->
-
-<script>
-    var wrapdiv = document.getElementById("wrap");
-    var contentdiv = document.getElementById("content");
-
-    wrapdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
-    contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
-
-
-    <!-- headerblur min height -->
     
-      var headerblur = document.getElementById("header-blur");
-      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
-    
-    
-</script>
-    
-<div style="display: none;">
-  <script src="https://s11.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
-</div>
 
 <!-- mathjax config similar to math.stackexchange -->
 
@@ -1082,7 +892,7 @@
     });
 </script>
 
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
 
@@ -1095,28 +905,30 @@
 
 
 
-<script src="/js/script.js"></script>
+<script src="/js/scripts.js"></script>
 
 
-<script src="/js/bootstrap.js"></script>
 
-
-<script src="/js/main.js"></script>
-
-
+  
+<script src="/js/home.js"></script>
 
 
 
 
 
 
-  <div style="display: none;">
+
+
+
+
+
+	<div style="display: none;">
     <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
   </div>
 
 
 
-	<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
 	</script>
 
 
@@ -1126,7 +938,66 @@
 
   </div>
 
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="myModalLabel">设置</h2>
+      </div>
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+
+
+      <div class="modal-body">
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" onclick="javascript:setFontSize();" aria-expanded="true" aria-controls="collapseOne">
+              正文字号大小
+            </a>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            您已调整页面字体大小
+          </div>
+        </div>
+      
+
+
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" onclick="javascript:setBackground();" aria-expanded="true" aria-controls="collapseTwo">
+              夜间护眼模式
+            </a>
+        </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+            夜间模式已经开启，再次单击按钮即可关闭 
+          </div>
+        </div>
+
+        <div>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关 于&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </div>
+         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            Hexo
+          </div>
+          <div class="panel-body">
+            Copyright © 2024 John Doe All Rights Reserved.
+          </div>
+        </div>
+      </div>
+
+
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <div class="modal-footer">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+      </div>
+    </div>
+  </div>
+</div>
+  
   <a id="rocket" href="#top" class=""></a>
-  <script type="text/javascript" src="/js/totop.js" async=""></script>
+  <script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
+  
 </body>
 </html>

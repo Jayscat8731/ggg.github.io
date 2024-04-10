@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Page 3 | Hexo</title>
+  <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
   
@@ -19,20 +19,22 @@
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
-  <link rel="icon" href="/css/images/favicon.ico">
+
+  
+
+  <link rel="icon" href="/css/images/mylogo.jpg">
+  <link rel="apple-touch-icon" href="/css/images/mylogo.jpg">
   
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
-  <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <style type="text/css">
-    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/l?subset_id=2&fvd=n5) format("woff2");font-weight:500;font-style:normal;}
-    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/l?subset_id=2&fvd=n7) format("woff2");font-weight:500;font-style:normal;}
-    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/l?subset_id=2&fvd=n4) format("woff2");font-weight:lighter;font-style:normal;}
-    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/d337d8/000000000000000000010095/27/l?subset_id=2&fvd=i4) format("woff2");font-weight:400;font-style:italic;}</style>
-    
-  <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Yanone+Kaffeesatz%3A200%2C300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
+    @font-face{font-family:futura-pt; src:url("/css/fonts/FuturaPTBold.otf") format("woff");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt-light; src:url("/css/fonts/FuturaPTBook.otf") format("woff");font-weight:lighter;font-style:normal;}
+    @font-face{font-family:futura-pt-italic; src:url("/css/fonts/FuturaPTBookOblique.otf") format("woff");font-weight:400;font-style:italic;}
+}
 
-  <link rel="stylesheet" id="athemes-headings-fonts-css" href="//fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C700&amp;ver=4.6.1" type="text/css" media="all">
+  </style>
   
 <link rel="stylesheet" href="/css/style.css">
 
@@ -40,11 +42,26 @@
   
 <script src="/js/jquery-3.1.1.min.js"></script>
 
+  
+<script src="/js/bootstrap.js"></script>
+
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="/css/bootstrap.css" >
-  <link rel="stylesheet" href="/css/fashion.css" >
-  <link rel="stylesheet" href="/css/glyphs.css" >
+
+  
+    <link rel="stylesheet" href="/css/home.css" >
+  
+
+  
+
+  
+
+  
+  
+  
+    <link rel="stylesheet" href="/css/vdonate.css" >
+  
 
 <meta name="generator" content="Hexo 7.1.1"></head>
 
@@ -54,85 +71,207 @@
 
 
   
+    <header id="header">
+
+	<!-- 背景图模式 -->
+	
+
+    
+      <div id="intrologo" class="intro-logo" style="background-position:center; background-repeat:no-repeat; background-image: url(); background-size: auto 100%;">
+
+      <!-- Support rolling -->  
+        
+        <section class="awSlider">
+          <div class="carousel slide carousel-fade " data-ride="carousel">
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+               
+                  
+                    <div class="item active">
+                  
+                    <img id="carousel-img0" src="/css/images/home-bg.jpg">
+                  </div>
+
+                  <!-- 自适应大图 -->
+                  <script>
+                      var img0 = new Image();
+                      var imageTag0 = document.getElementById("carousel-img0");
+                      img0.src = imageTag0.src;
+                      img0.onload=function(){
+                        if (img0.width / img0.height <= document.body.clientWidth / document.body.clientHeight) {
+                          imageTag0.style.width = document.body.clientWidth + "px";
+                        } else {
+                          imageTag0.style.height = document.body.clientHeight + "px";
+                          imageTag0.style.marginLeft = -(document.body.clientHeight * img0.width / img0.height - document.body.clientWidth) / 2 + "px";
+                        }
+                      };
+                  </script>
+                
+                  
+                    <div class="item">
+                  
+                    <img id="carousel-img1" src="/css/images/sample.jpg">
+                  </div>
+
+                  <!-- 自适应大图 -->
+                  <script>
+                      var img1 = new Image();
+                      var imageTag1 = document.getElementById("carousel-img1");
+                      img1.src = imageTag1.src;
+                      img1.onload=function(){
+                        if (img1.width / img1.height <= document.body.clientWidth / document.body.clientHeight) {
+                          imageTag1.style.width = document.body.clientWidth + "px";
+                        } else {
+                          imageTag1.style.height = document.body.clientHeight + "px";
+                          imageTag1.style.marginLeft = -(document.body.clientHeight * img1.width / img1.height - document.body.clientWidth) / 2 + "px";
+                        }
+                      };
+                  </script>
+                
+                  
+                    <div class="item">
+                  
+                    <img id="carousel-img2" src="https://source.unsplash.com/collection/954550/1920x1080">
+                  </div>
+
+                  <!-- 自适应大图 -->
+                  <script>
+                      var img2 = new Image();
+                      var imageTag2 = document.getElementById("carousel-img2");
+                      img2.src = imageTag2.src;
+                      img2.onload=function(){
+                        if (img2.width / img2.height <= document.body.clientWidth / document.body.clientHeight) {
+                          imageTag2.style.width = document.body.clientWidth + "px";
+                        } else {
+                          imageTag2.style.height = document.body.clientHeight + "px";
+                          imageTag2.style.marginLeft = -(document.body.clientHeight * img2.width / img2.height - document.body.clientWidth) / 2 + "px";
+                        }
+                      };
+                  </script>
+                
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href=".carousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Geri</span>
+            </a>
+            <a class="right carousel-control" href=".carousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">İleri</span>
+            </a>
+          </div>
+        </section>
+        <script>
+          $('section.awSlider .carousel').carousel({
+              pause: '',
+              interval: 5000
+          });
+          var startImage = $('section.awSlider .item.active > img').attr('src');
+          $('section.awSlider .carousel').on('slid.bs.carousel', function () {
+              var bscn = $(this).find('.item.active > img').attr('src');
+              $('section.awSlider > img').attr('src', bscn);
+          });
+        </script>
+      
+
+    
+ 
+
+
+    <canvas width="100%" height="100%"></canvas>
+    <script>
+      var c = document.getElementsByTagName('canvas')[0],
+          x = c.getContext('2d'),
+          w = window.innerWidth,
+          h = window.innerHeight,
+          pr = window.devicePixelRatio || 1,
+          f = 90,
+          q,
+          m = Math,
+          r = 0,
+          u = m.PI*2,
+          v = m.cos,
+          z = m.random
+      c.width = w*pr
+      c.height = h*pr
+      x.scale(pr, pr)
+      x.globalAlpha = 0.6
+
+      <!-- 折线Polyline背景 -->
+      
+    </script>
+    
+
+    
+      <div id="homelogo" class="homelogo" style="background: rgba(255,255,255,1);"> 
+    
+
+        
+          <div class="homelogoback"  style="border: 1px solid #404040;" >
+            <h1><a href="#content" id="logo">Hexo</a></h1>
+            <h3></h3>
+            <h5>John Doe</h5>
+            <!-- <p><a href="https://github.com/iTimeTraveler" target="_blank">Github</a></p> -->
+          </div>
+        
+    
+    </div>
+  </div>
+
+  <!-- 自适应主页背景大图 -->
   
-  <div class="site-header-image">
-    <img id="originBg" width="100%" alt="Hike News" src="">
-  </div>
 
-  <div id="header-blur" class="site-header-image blur" style="position: absolute; top:0; height: 207px; min-height: 207px; min-width: 100%;">
-    <img id="blurBg" width="100%" style="top: 96%" alt="Hike News" src="">
-  </div>
-
-  <script>
-        var imgUrls = "css/images/pose01.jpg,https://source.unsplash.com/collection/954550/1920x1080,https://source.unsplash.com/collection/954550/1920x1081".split(",");
-        var random = Math.floor((Math.random() * imgUrls.length ));
-        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
-          document.getElementById("originBg").src=imgUrls[random];
-          document.getElementById("blurBg").src=imgUrls[random];
+ <!-- home_logo_image居中 -->
+ 
+    <script>
+        var homelogodiv = document.getElementById("homelogo");
+        if (document.all.homelogo.offsetWidth > document.body.clientWidth) {
+          homelogodiv.style.width = document.body.clientWidth + "px";
+          homelogodiv.style.marginLeft = document.body.clientWidth * -0.5 + "px";
         } else {
-          document.getElementById("originBg").src='/' + imgUrls[random];
-          document.getElementById("blurBg").src='/' + imgUrls[random];
+          homelogodiv.style.width = homelogodiv.clientWidth  + "px";
+          homelogodiv.style.marginLeft = (homelogodiv.clientWidth)  * -0.5 + "px";
         }
     </script>
+  
 
-
-
-
-<header id="allheader" class="site-header" role="banner" 
-   style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);"  >
-  <div class="clearfix container">
-      <div class="site-branding">
-
-          <h1 class="site-title">
-            
-              <a href="/" title="Hexo" rel="home"> Hexo </a>
-            
-          </h1>
-          
-          
-            
-          <nav id="main-navigation" class="main-navigation" role="navigation">
-            <a class="nav-open">Menu</a>
-            <a class="nav-close">Close</a>
-
-            <div class="clearfix sf-menu">
-              <ul id="main-nav" class="menu sf-js-enabled sf-arrows"  style="touch-action: pan-y;">
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="/"> <a class="" href="/">Home</a> </li>
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="archives"> <a class="" href="/archives">Archives</a> </li>
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="categories"> <a class="" href="/categories">Categories</a> </li>
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="tags"> <a class="" href="/tags">Tags</a> </li>
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663" linktext="about"> <a class="" href="/about">About</a> </li>
-                    
-              </ul>
-            </div>
-          </nav>
-
-      </div>
+  <div class="intro-navigate">
+      <p class="navigater-list">
+        
+          <a id="beautifont" class="main-nav-link" href="/">Home</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/archives">Archives</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/categories">Categories</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/tags">Tags</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/about">About</a>
+        
+      </p>
   </div>
+
 </header>
-
-
+  
   <div id="container">
     <div id="wrap">
+      
             
       <div id="content" class="outer">
         
-          <section id="main">
+          <section id="main" style="float:none;">
   
-    <article id="post-computer/芯片网络设计"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+    <article id="post-geography/global transportation"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
     
     
       <header class="article-header">
         
   
     <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2023/07/11/computer/%E8%8A%AF%E7%89%87%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/">芯片网络设计</a>
+      <a class="article-title" href="/2023/07/11/geography/global%20transportation/">Airlines</a>
     </h1>
   
 
@@ -140,40 +279,44 @@
     
     <div class="article-meta">
       
-	<a href="/2023/07/11/computer/%E8%8A%AF%E7%89%87%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1/" class="article-date">
-	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">July 11, 2023</time>
+	<a href="/2023/07/11/geography/global%20transportation/" class="article-date">
+	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">2023-07-11</time>
 	</a>
 
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Computer-Science/">Computer Science</a>
- 
+    <a class="article-category-link" href="/categories/Geography/">Geography</a><a class="article-category-link" href="/categories/Geography/Global-Transportation/">Global Transportation</a>
+
       
+      
+
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p>有可能会深入了解这个东西，想要了解它是因为它的结构凝聚了极为广大的智慧，并且它包含了极其广泛的科技种类，在计算机科学之外。</p>
-
+        <p class="article-excerpt-content">
+          
+        </p>
+        <p class="article-more-link">
+          <a href="/2023/07/11/geography/global%20transportation/#more">Read More</a>
+        </p>
       
     </div>
-    <footer class="entry-meta entry-footer">
+    <footer class="article-footer">
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Computer-Science/">Computer Science</a>
+      
+      
+      
 
-      
-      
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
+
   
     <article id="post-economics/behavior_economics"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+  <div id="articleInner" class="article-inner">
     
     
       <header class="article-header">
@@ -189,38 +332,43 @@
     <div class="article-meta">
       
 	<a href="/2023/07/11/economics/behavior_economics/" class="article-date">
-	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">July 11, 2023</time>
+	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">2023-07-11</time>
 	</a>
 
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Economics/">Economics</a>
- 
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        
-      
-    </div>
-    <footer class="entry-meta entry-footer">
-      
-	<span class="ico-folder"></span>
     <a class="article-category-link" href="/categories/Economics/">Economics</a>
 
       
       
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p class="article-excerpt-content">
+          
+        </p>
+        <p class="article-more-link">
+          <a href="/2023/07/11/economics/behavior_economics/#more">Read More</a>
+        </p>
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+      
+
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
+
   
     <article id="post-economics/the alchemy of finance"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+  <div id="articleInner" class="article-inner">
     
     
       <header class="article-header">
@@ -236,39 +384,44 @@
     <div class="article-meta">
       
 	<a href="/2023/07/11/economics/the%20alchemy%20of%20finance/" class="article-date">
-	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">July 11, 2023</time>
+	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">2023-07-11</time>
 	</a>
 
       
-	<span class="ico-folder"></span>
     <a class="article-category-link" href="/categories/Economics/">Economics</a>
- 
+
       
+      
+
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p>在此整理一些阅读索罗斯the alchemy of finance的一些思考</p>
+        <p class="article-excerpt-content">
+          在此整理一些阅读索罗斯the alchemy of finance的一些思考
 
+        </p>
+        <p class="article-more-link">
+          <a href="/2023/07/11/economics/the%20alchemy%20of%20finance/#more">Read More</a>
+        </p>
       
     </div>
-    <footer class="entry-meta entry-footer">
+    <footer class="article-footer">
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Economics/">Economics</a>
+      
+      
+      
 
-      
-      
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
+
   
     <article id="post-economics/usfinance"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+  <div id="articleInner" class="article-inner">
     
     
       <header class="article-header">
@@ -284,54 +437,43 @@
     <div class="article-meta">
       
 	<a href="/2023/07/11/economics/usfinance/" class="article-date">
-	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">July 11, 2023</time>
+	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">2023-07-11</time>
 	</a>
 
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Economics/">Economics</a>, <a class="article-category-link" href="/categories/Economics/The-Economist/">The Economist</a>
- 
+    <a class="article-category-link" href="/categories/Economics/">Economics</a><a class="article-category-link" href="/categories/Economics/The-Economist/">The Economist</a>
+
       
+      
+
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="Investors-must-prepare-for-sustained-higher-inflation"><a href="#Investors-must-prepare-for-sustained-higher-inflation" class="headerlink" title="Investors must prepare for sustained higher inflation"></a>Investors must prepare for sustained higher inflation</h1><h2 id="The-costs-of-taming-price-rises-could-prove-too-unpalatable-for-central-banks"><a href="#The-costs-of-taming-price-rises-could-prove-too-unpalatable-for-central-banks" class="headerlink" title="The costs of taming price rises could prove too unpalatable for central banks"></a>The costs of taming price rises could prove too unpalatable for central banks</h2><p>At first glance the world economy appears to have escaped from a tight spot. In the United States annual inflation has fallen to 4%, having approached double digits last year. A recession is nowhere in sight and the Federal Reserve has felt able to take a break from raising interest rates. After a gruesome 2022, stockmarkets have been celebrating: the s&amp;p 500 index of American firms has risen by 14% so far this year, propelled by a resurgence in tech stocks. Only in Britain does inflation seem to be worryingly entrenched.</p>
-<p>Listen to this story. Enjoy more audio and podcasts on <a target="_blank" rel="noopener" href="https://economist-app.onelink.me/d2eC/bed1b25">iOS</a> or <a target="_blank" rel="noopener" href="https://economist-app.onelink.me/d2eC/7f3c199">Android</a>.</p>
-<p>The trouble is that the inflation monster has not truly been tamed. Britain’s problem is the most acute. There, wages and “core” prices, which exclude energy and food, <a target="_blank" rel="noopener" href="https://www.economist.com/britain/2023/06/21/britains-inflation-pain-is-mostly-self-inflicted-and-getting-worse">are rising</a> by around 7%, year on year. But even as headline rates elsewhere have dropped as the energy shock has faded, core inflation has been frustratingly stubborn. In both America and the euro area it exceeds 5%, and has been high over the past year. Across the rich world many governments are adding fuel to the fire by running budget deficits of a scale typically seen during deep economic slumps.</p>
-<p>As a result, central banks face agonising choices. What they do next will reverberate across financial markets, threatening uncertainty and upheaval for workers, bosses and pensioners.</p>
-<p>Equity investors are hoping that central banks can return inflation to their 2% targets without inducing a recession. But history suggests that bringing inflation down will be painful. In Britain mortgage rates are surging, causing pain to aspiring and existing homeowners alike. Rarely has America’s economy escaped unscathed as the Fed has raised rates. By one reckoning, the unemployment rate would have to rise to 6.5% for inflation to come down to the Fed’s target, the equivalent of another 5m people being out of work. Rising interest rates imperil financial stability in the euro area’s most indebted member countries, notably Italy.</p>
-<p>Moreover, the secular forces pushing up inflation are likely to gather strength. Sabre-rattling between America and China is leading companies to replace efficient multinational supply chains with costlier local ones. The demands on the public purse to spend on everything from decarbonisation to <a target="_blank" rel="noopener" href="https://www.economist.com/finance-and-economics/2023/06/22/can-the-west-build-up-its-armed-forces-on-the-cheap">defence</a> will only intensify.</p>
-<p>Central bankers vow that they are determined to meet their targets. They could, by raising rates, destroy enough demand to bring inflation down. Were they to keep their word, a recession would seem likelier than a painless disinflation. But the costs of inducing a recession, together with the longer term pressures on inflation, suggest another scenario: that central banks seek to evade their nightmarish trade-off, by raising rates less than is needed to hit their targets and instead <a target="_blank" rel="noopener" href="https://www.economist.com/briefing/2023/06/21/inflation-is-as-corrosive-to-investing-as-it-is-to-the-real-economy">living with higher inflation</a> of, say, 3% or 4%.</p>
-<p>This approach would resemble the “opportunistic disinflation” espoused by some Fed governors in the late 1980s. Rather than deliberately inducing recessions to bring inflation down, they sought to do so passively, from cycle to cycle. Yet today’s markets are not prepared for such tactics. The pricing of inflation-linked Treasuries, for instance, is consistent with average inflation expectations of 2.1% over the next five years, and 2.3% in the five years thereafter. A world of higher sustained inflation would therefore involve an epochal shift for financial markets. Unfortunately, it would be volatile, wrong-foot investors and pit winners against losers.</p>
-<p>One source of volatility could stem from the damage to central banks’ reputations. In the decades since the 1980s they have trumpeted their commitment to targets. Yet over the past two years they have failed to anticipate the persistence of inflation. Should they then pay lip service to their unmet targets, they might no longer be taken at their word. In time they could lose the ability to guide the expectations of businesses and their workers. Those expectations could become unmoored and cause lurches in prices, inducing inflation to spiral.</p>
-<p>Volatile inflation would hurt companies, and their shares, by making it harder for them to manage their costs and set prices. It would hurt virtually every asset class by raising the likelihood that central banks would have to rush to adjust rates after an unexpected flare-up. That could bring large swings in real yields, prompting investors to demand a discount in compensation for the uncertainty, forcing asset prices down.</p>
-<p>The new regime could wrong-foot investors in other ways, too. Were central banks more lax, it would initially flatter the prices of short-term bonds and push down their yields. In time, as the system adjusted to higher inflation, nominal rates would rise to keep real interest rates constant; in anticipation, the price of long-term bonds would fall. Investors could rush into commodities, an inflation hedge. Yet a stampede into the tiny market for futures, which are easier to trade than physical barrels of oil, would risk a bubble.</p>
-<p>Higher inflation would also create new winners and losers. Most obviously, inflation involves an arbitrary transfer of wealth from lenders to borrowers, as the real value of debt falls. Heavily indebted borrowers, including governments around the world, may feel like rejoicing. But as bond investors realised they were being stiffed, they could punish recklessness with higher borrowing costs, including in rich countries.</p>
-<h2 id="Sticker-shock"><a href="#Sticker-shock" class="headerlink" title="Sticker shock"></a>Sticker shock</h2><p>Other financial relationships could also become strained. If inflation was gobbling up four percentage points of returns each year, investors might start to look askance at fund managers’ fees. Rising yields would improve the financial health of many defined-benefit pension schemes, by reducing the present value of their future liabilities. But benefits in retirement are not always fully protected from inflation, meaning that the purchasing power of some pensions will eventually be lower than expected. That would fuel voters’ ire.</p>
-<p>Such is the excruciating situation that central banks now find themselves in. They are likely to steer a course between high inflation and recession. Investors seem to believe that this can still end well, but the chances are that it won’t. ■</p>
-<p><em>For subscribers only: to see how we design each week’s cover, sign up to our weekly <a target="_blank" rel="noopener" href="https://www.economist.com/newsletters/cover-story">Cover Story newsletter.</a></em></p>
-<p>This article appeared in the Leaders section of the print edition under the headline “The trouble with sticky inflation”</p>
-
+        <p class="article-excerpt-content">
+          Investors must prepare for sustained higher inflationThe costs of taming price rises could prove too unpalatable for central banksAt first glance the world economy appears to have escaped from a tight spot. In the United States annual inflation ha...
+        </p>
+        <p class="article-more-link">
+          <a href="/2023/07/11/economics/usfinance/#more">Read More</a>
+        </p>
       
     </div>
-    <footer class="entry-meta entry-footer">
+    <footer class="article-footer">
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Economics/">Economics</a>, <a class="article-category-link" href="/categories/Economics/The-Economist/">The Economist</a>
+      
+      
+      
 
-      
-      
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
+
   
     <article id="post-economics/经济学"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+  <div id="articleInner" class="article-inner">
     
     
       <header class="article-header">
@@ -347,119 +489,47 @@
     <div class="article-meta">
       
 	<a href="/2023/07/11/economics/%E7%BB%8F%E6%B5%8E%E5%AD%A6/" class="article-date">
-	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">July 11, 2023</time>
+	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">2023-07-11</time>
 	</a>
 
       
-	<span class="ico-folder"></span>
     <a class="article-category-link" href="/categories/Economics/">Economics</a>
- 
+
       
+      
+
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p>在此展现我了解熟悉经济学（狭义与广义）的发展&#x2F;生长&#x2F;蔓延&#x2F;繁殖过程</p>
-<h1 id="2023"><a href="#2023" class="headerlink" title="2023"></a>2023</h1><p>3.14.</p>
-<p>人们常说，特斯拉在大陆卖的比美国本土还便宜。</p>
-<p>其实这是一个很有意思的现象，我的理解是，这种现象存在的可能性有两种。</p>
-<p>第一种：这是自然产生的市场价格，也就是这是按照宏观市场环境自然调控产生的价格，也即意味着大陆对特斯拉车辆的需求低于北美，那么这里就涉及了一个经济学概念也就是价格歧视，价格歧视的根本要义在于同一个供给方（这里是特斯拉）对于在物理空间意义上相隔离的需求程度有较大差别的消费群体（北美和大陆的消费群体的需求程度不同，北美需求高于大陆，客户愿意支付更高的价格）实行不同的供给价格（北美的价格要高于大陆）来赚取更多的利润。</p>
-<p>第二种可能：这不是自然市场产生的价格，而是企业为了达到一些商业目的而刻意调控的价格。</p>
-<p>可能性在于，大陆的市场消费潜力要高于北美，但是大陆存在与特斯拉激烈竞争的车企，而特斯拉在北美地区的商业垄断能力更高，根据垄断市场相关的经济学常识，将价格略微调高于市场平均价格可以给企业带来更多的收入，但是同时会产生更多的无谓损耗，由消费者或者市场的其他组成来承担，为了与大陆新能源车企抢占更大的市场，特斯拉通过主动压低大陆车辆售价在短期内吸引更多客户，同时培养客户忠诚度也就是客户黏性，来进一步抢占大陆市场份额，在长期来看是一个正确的策略，仅仅从资本运作的角度来看。随着时间推进，在科技等总和层面上来看，国产新能源汽车有可能会逐渐无法与特斯拉竞争，特斯拉主动降价也许加快了国产新能源汽车被挤压出去的进程。</p>
-<p>或者第三种可能，也即是以上两种可能的结合。</p>
-<p>特斯拉和国产车企的关系在经济学意义上是竞争关系, 特斯拉价格提升，会导致部分消费者购买国产新能源汽车，导致国产新能源价格提升。</p>
-<p>经济学意义上还存在共生关系，比如汽车价格升高，反而会导致汽油价格降低，因为汽车需求降低，买汽油的人也变少了。</p>
-<p>以上涉及的经济学概念有价格歧视，消费者剩余，短期，长期内的价格弹性，企业在宏观调控中的职能，垄断市场中的经济学，无谓损耗，市场抢占，等等，以及供需关系这种太基本的概念就不赘述了。</p>
-<hr>
-<p>2023.4.3.</p>
-<p>我预计再积累十年左右的理论知识和实践经验，大约到30岁的时候我有可能可以凭借实力而不是运气操作对冲基金。最近两天学习到了宏观经济学原理的中央银行管理职能和宏观领域内的货币通货膨胀效应和古典二分法，慢慢地对整个经济体制产生一些比较系统的认识，大约在10%到20%的程度上(我认为普通人的认识大约在1%到2%，巴菲特在98%到99%)。对冲基金中的核心关键我可能无法自己学习到，或者完全理解，索罗斯的很多经济手段应该是他在伦敦政经学院学习的时候学得的。</p>
-<hr>
-<p>2023.4.13.</p>
-<p>突然更加深入理解了索罗斯思路的绝妙之处，市场在大多情况下并不是和常规经济学所描述的那般系统和稳定，大多数情况下，世界范围内的自由市场相当复杂，充满非常难以用常规思路和手段预测的波动性。这种思路和波普尔所描述的的&lt;人所谓追求纯粹的理性本身就是一种非理性&gt;可能是内在继承的。</p>
-<hr>
-<p>4.21.</p>
-<p>现在我已经基本掌握了Gregory Mankiw教授所著的最为经典的经济学原理系列作品，也就是微观与宏观这两册，这两本经济学作品其实并不能使用通俗的“入门”读物来定义，更为准确的描述是，它给出了一个非常熟练和精简的，对于经济学的整体历史发展的梳理，介绍，概括（经济学目前最前沿的地方主要是行为经济学behavior economics，最近的经济学诺贝尔奖和它高度相关，不过我对它也存在一定的，非常有限的了解），因为经济学其实是一门比较新鲜的，近代大约两百年才系统建立为一门学科的学术集合。我认为我已经学到了一些最为基础，实践使用性最高的一些分析工具，最主要的是古典二分法（货币中性），货币政策，通货膨胀&#x2F;紧缩，宏观情境下中央银行的经济政策（简单可以理解为美联储为了控制通货膨胀而惯常采取的加息减息的手段），这些基础的分析工具对我阅读理解经济学人（The Economist)非常的重要，如果没有学过这些基础的分析工具几乎没有办法阅读经济学人的金融板块的内容。</p>
-<p>但是在后来首先我自己也逐渐感觉到经济学的局限性，不过在我阅读索罗斯的the alchemy of finance的时候我有些惊喜的发现索罗斯的一些想法与我似乎也是高度类似的，主要在于有关经济学的局限性方面。另外要强调在进行股市相关的分析的时候，宏观经济学的权重是更大的。在一年之前我几乎对经济学，金融，股市这些东西都非常的一无所知，但是一年以后，在一个时间尺度上来看我已经非常快速和高效地建立起了系统和有效并且具有实操性（正在逐渐增强，现在还是很原始的模样）的知识和操作体系。我想应当在可预见的未来的某一天我会跟随索罗斯的脚步进行一些他曾经行进过的路线，并且发掘出一些全新的元素。可惜索罗斯已经92岁了，我想应当不太有可能在他的有生之年与他有任何交集（但是我想与高行健相见的概率仍然是极高的）。</p>
-<hr>
-<p>7.29.</p>
-<p>感觉我突破索罗斯的那个临界点的时间要比我原来想象的更快，我从2021年开始初步了解相关的整个系统，2021年我开始认真学经济学，2022年才把宏观经济学大概搞明白了，然后又过了一年才明白经济学对实际投资有什么指导意义(几乎很小，并非最主要)<br>索罗斯渡过这个临界点大概在30岁，我可能会在30岁之前，我最近想到一个更加深入和关键的系统是人为和非人为因素的比例，我原来非常失调地判断了这两种因素的比例，也就是非常过分地高估了人为因素，我现在极大的把它调低，我不能说调节以后就非常准确了，只能说相对于原来的估计更加准确，甚至不是准确，几乎是正确，原来那个预估的比例失调太严重简直就是错误的了，我几乎要把原来那套系统完全反过来才更接近正确。</p>
-<hr>
-<p>8.10.</p>
-<p>我已经以难以置信地速度(两年)逐步建立起一个系统稳定地操控股市的生态，我现在几乎已经拥有了操作股市的所有工具和知识(或者说最重要和最基本的那些)，我觉得阅读经济学人对促进这种能力的建立有极其巨大的占比，我几乎可以肯定可以用这种手段来稳定地获得我自己的收入，我在一个非常长的时间线上，稳定地调整，买入和卖出我的各支股票(absolutely 美股)，并且在每个季度分得股息，然后我要精打细算地分配好支持，确保一切在sustainable 的前提之下可以不断缓缓expand.我认为比较重要的摄入有这样几个大类<br>基础的经济学原理，尤其是宏观部分的和通胀，通缩，中央政府货币政策相关的内容，以及非常基础的对冲手法<br>经济学人，经济学人会在抽象的专业层次上帮助我深入的了解几乎所有行业的一些真实情况(政治，经济，科技，旅游，气候，医药等等)，我不需要做到极其的，对于每个行业极其专业的认识，我只需要做到比平均水平相对高出一大截就行了<br>然后是通过了解认识美国整体的政治和经济生态(尤其是通过民主党，Blackrock 和马斯克之间的纠缠来感受，一个非常高效和真实的角度)，因为很多超大的conglomerates对宏观的经济走势一定是会起到相当大的影响的(参考美国的trustbuster系统)<br>然后是结合信息(主要是经济学人)对股市进行实时的观察和感知，以及了解股票系统的一些基础历史知识(东印度公司)</p>
-<hr>
-<p>8.19.</p>
-<p>我操，我突然想明白一个东西，中国目前在通缩边缘徘徊，但是物价并没有出现大幅的降低，是因为房价大幅下跌了，而房子和一般物品，比如吃穿住用的生活用品是竞争关系，这是微观经济学部分的知识。就是一般家庭在房子上投入的金钱比一般的物品高出太多了，而当对房子的需求降低以后，消费大量转移到其他方面，volatile类物品的价格不仅不会降低而且还有可能上升呢.</p>
-<p>我操，太神奇了，真的,这种思考真的让我多巴胺爆表,想要感受一个这样宏观的经济情况其实非常有挑战性，实证描述看起来很简单但需要学习和思考很多很多潜质的东西.看起来很简单，但是能想到我感觉不太容易，或者我也没有刻意想，我在看经济学人对中国房地产的报道时顺便想到了.</p>
-<p>房地产爆炸从长远来看对中国，对世界都绝对是个大好的事情，地产业爆炸以后的一些年经济发展模式会有一个非常大的调整，而且很多现代发达国家以前都爆过，日本上个世纪末期，美国2008年，欧洲那边也有，中国这是第一次爆，爆完以后整个经济结构会自发愈合和调整，虽然很痛，但是会更健康.</p>
-<p>中国的房地产爆炸和历史上其他发生过的房地产爆炸本质上几乎没有太大区别，唯一比较大的区别是creditors群体，历史上其他房地产爆的时候银行首先承受第一波冲击，因为地产建设的钱是从银行来的，中国也存在，但是中国地产建设的钱更多是从购房者来的(碧桂园的有668bn债务来自购房者，简单来说就是他们给了钱但没有拿到房子)，但是这并不影响房地产泡沫的本质属性。</p>
-
+        <p class="article-excerpt-content">
+          在此展现我了解熟悉经济学（狭义与广义）的发展&#x2F;生长&#x2F;蔓延&#x2F;繁殖过程
+20233.14.
+人们常说，特斯拉在大陆卖的比美国本土还便宜。
+其实这是一个很有意思的现象，我的理解是，这种现象存在的可能性有两种。
+第一种：这是自然产生的市场价格，也就是这是按照宏观市场环境自然调控产生的价格，也即意味着大陆对特斯拉车辆的需求低于北美，那么这里就涉及了一个经济学概念也就是价格歧视，价格歧视的根本要义在于同一个供给方（这里是特斯拉）对于在物理空间意义上相隔离的需求程度有较大差...
+        </p>
+        <p class="article-more-link">
+          <a href="/2023/07/11/economics/%E7%BB%8F%E6%B5%8E%E5%AD%A6/#more">Read More</a>
+        </p>
       
     </div>
-    <footer class="entry-meta entry-footer">
+    <footer class="article-footer">
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Economics/">Economics</a>
+      
+      
+      
 
-      
-      
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
-  
-    <article id="post-physics/clauser"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2023/07/11/physics/clauser/">The 2022 Clauser Nobel Lecture</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-meta">
-      
-	<a href="/2023/07/11/physics/clauser/" class="article-date">
-	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">July 11, 2023</time>
-	</a>
-
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Physics/">Physics</a>, <a class="article-category-link" href="/categories/Physics/Quantum-Physics/">Quantum Physics</a>
- 
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p> so our next speaker is  John klauser he was born in Pasadena  California Us in 1942. he studied  undergraduate physics at Caltech and  Colombia University New York  and received a PhD in physics from  Columbia University in 1969  from 1969 to  1997 he worked at University of  California Berkeley  Lawrence Berkeley National Laboratory  and Lawrence leave them all National  Laboratory he’s pressed presently  research physicist at his own private  lab in Walnut Creek California  so please join me in welcoming John  closer to the stage to tell us about the  development that led to this year’s  price  oops no  wait a minute  poof  I’m not  I’m not connected no  that’s we’re not  something is not right uh let me start  over again then here  okay  okay uh  what I did in all of this  was  the first experiments to actually uh  test what uh John Bell had shown us was  probably one of the most important uh  discoveries I I would think of uh the  recent decade or the recent Century if  in fact  the  so these are so I will discuss the  experiments  and then  a in order to  understand the experiments  Mike horn and I developed what’s now  called the theory of local realism  which is in essence  Einstein’s whole program for uh doing  physics  and unfortunately it’s wrong  which is what the experiments show  and finally I will end with the  uh  does this work yeah  uh  discussion of why I still am totally  confused about what’s going on with  quantum mechanics  okay let me start with question is what  is quantum mechanic what is quantum  entanglement  okay uh  quantum entanglement  uh started out with Schrodinger  Schrodinger produced not one but two  important equations  you started out with the first uh  equation  which was for single particles  the  particular hydrogen which has a single  electron  and he miraculously it described the  structure the structure and the energy  levels of hydrogen  but more complicated was helium which  had two electrons so he produces a a a  second uh  equation  which now involves  two electrons the two are very different  equations  the second one allows quantum  entanglement  which is a  new equate uh Solutions  emerged from from the second equation  and the  peculiarity is that the two electrons  are now intimately uh correlated  at the time nobody suggested doing any  experiments to test this rather bizarre  prediction however both Einstein and  Schrodinger were very disturbed by this  phenomenon  and in fact uh Einstein badalski Rosen  in 35  proposed the addition of additional  variables through quantum mechanics to  in order to explain what’s going on  Niels Bohr on the other hand said no  they’re not needed  and and I discussed all of this very  nicely  so one of the question first questions I  was asked when I was talking about this  in the uh Swedish Embassy uh a couple of  weeks ago  was  what is a bell inequality this is what  we in fact uh tested there’s not one but  there’s actually three important bill  inequalities that I want to talk about  the first of course was John Bell’s 1964  inequality  but uh uh and I’ll described very nicely  there’s one problem with  being of the theory  in order to be useful a theory must make  an experimental prediction and  unfortunately uh John Bell’s uh  uh paper made no experimental  predictions because it made demanded  a perfect experiment and uh which which  had certain uh certainty in the outcomes  and as  uh Ben Franklin pointed about the only  thing certain in life are or in nature  are death and taxes  unfortunately this is not Texas so the  uh  uh  with uh help from uh my associates uh  Mike Horn uh admir shimone and Dick Holt  who is here in the in the audience  uh  uh We’ve uh produced the uh closer horns  for money Holt now commonly referred to  as chsh inequality which was made the uh  first real testable experimental  prediction  so and we proposed a detailed experiment  to do that  and we noticed various important  loopholes uh one of which of course was  mentioned that he tested but a very  important loophole was that the data  really couldn’t violate the inequality  on their own so we had to add some  additional assumptions  so  the third inequality is now uh the was  uh produced by Mike horn and I uh in  1974 and it is the first loophole free  experimentally testable uh  uh inequality  okay let’s start with the first one uh  Atlanta’s already noticed this  I signed panelski Rosen had always and  and others had always assumed that that  quantum mechanics always made uh correct  predictions  the grand irony of this Bell’s paper  is that he showed  that Einstein’s original  intent of that paper was exactly the  opposite of what was true  that the if they wanted to show that  that the correct predictions led to  uh the need for hidden variables and  what bell showed was that if you put it  hidden variables in then you can’t get  the uh predictions of quantum mechanics  so again I said it was not really  testable  so uh  chsh in 1969  we were inspired by this work and said  wondered well this can we really relieve  the  get rid of Einstein’s requirement for a  perfect experiment and indeed we found  yes we could  and so we designed an experiment  uh to actually test it we worked out all  the details of what you uh you needed to  do in order to test it  uh and that was the first actual hard  experimental prediction  uh and it doesn’t you require uh bills  uh impossible to achieve its conditions  so uh we now have two theories two  different sets of predictions quantum  mechanics and bills uh the CH  inequalities prediction  so being an experimentalist let’s  actually do an experiment and find out  which one is true  so in order to do this we had to add a  minor supplementary conditions but they  were we believe that they’re of quite  reasonable rather weak  Okay the third inequality  is the  CH or the closer horn inequality that  was developed in 1974  uh and it was to test uh what is now  called local realism  we wanted to we wondered when we were  doing  the experiments  we wondered  what is really being tested here is it  just the addition of hidden variables or  is it something more profound than that  and we found that indeed it is far more  profound it was a test of Einstein’s  whole platform for doing physics  that we effectively were putting him out  of business  and so when we and in fact  the theory when we develop it was  effectively Dead on Arrival it was  already refuted  but nonetheless we tried to put it in as  clear as possible set of terms as we  could  so and in the process we formatted a new  inequality the CH inequality and it  allows loophole free tests  so uh now if with some even milder  additional assumptions then the first  experiments that uh that I had done uh  72 and 76 uh actually knocked it out so  that it was already dead  more recently and it’s taken a long time  because the technology did not exist at  all to in order to test it in 1974.  uh it has now been tested conclusively  with so now without any loopholes at all  one can say uh and I agree with the last  early uh conclusion it’s dead Jim  so  what are some of the experiments uh  there are three important ones that that  I did uh first was with Stu Friedman who  was a graduate student at UC Berkeley in  19 uh we published a results in 1972 and  this was the the first experiment to  actually test the chsh inequality  in the  in parallel with us  as Nicole I mentioned who is here was  working with Frank Pipkin at Harvard  and  they got the opposite result  oops one of us is is in trouble  so they decided not to publish they were  skeptical of their results  but now I’m skeptical of my results so  uh what do I do well I just decided Well  I needed to uh repeat uh their version  of the experiment which I did in 1976.  and then there’s just along the way  one of our assumptions had uh and I was  kind of searching for loopholes  uh had required photons to act like  particles but I discovered that there  was no actual experimentals uh proof  that that particles that photons did act  like particles so I did an experiment 74  to prove that okay so here is the the  first experiment  a picture of it and that all at the uh  right in it was a very young Stu  Friedman uh in the middle is a the  atomic beam apparatus sitting there  pumping away oil leaking all over the  floor  pair of polarizers on each side which  would which would rotate  so and this one became a stu Friedman’s  PhD thesis at uh  uh Cal Berkeley  so what we did is we had a calcium  Atomic beam and we excited it with this  UV lab very weak extension we wished  we’d had lasers which didn’t exist at  the time  so uh we got 6.3 Sigma result I mean the  five Sigma uh Criterion that is now  common was invented by Louis Alvarez at  Berkeley and he he uh was a a strong  Taskmaster on any experimental results  that came out of Berkeley  so  this was the the second experiment which  I did I mentioned uh this was a repeat  of the whole uh Pipkin experiment  I use the same polarizers but I used  their uh uh Source uh of mercury uh  foreign  the two photons  and Dick Hort uh hold uh very generously  taught me how to do it uh could not uh  there’s a it’s not an easy and that is  my Nobel artifact that I have donated is  one of the the sources  so it used Mercury uh with an electron  beam exciting yeah the atoms  and I got at least a four Sigma  result there  and we use this the same protocol in  order to uh introduce the the  assumptions  so the  other experiment that I mentioned  had to deal with it did particles was  there a real way  experimentally demonstrated wave  particle duality for photons  photons started in 1917  when Einstein was trying to explain  how do does a gas  and  a thermal uh applied spectrum of Life  come to equilibrium thermal equilibrium  with each other  and he noticed that  photons had to be behave by what he  called directional energy bundles  uh we now call them photons  then Schrodinger  noticed  that  what’s the difference between asking the  question well what’s the difference  between a particle and a wave  well a a wave could be just as a  classical pulse of light  and that is commonly referred to as the  old Schrodinger uh interpretation so how  does one tell tell them apart  suppose you have a source and you send  light through a half silver mirror  if it’s a wave  the wave will go both ways  reduced intensity  if it’s a particle  the particle will go  one way  or the other  now if I have two detectors  behind the uh  the half silvered mirror  if it’s a wave  they will both see this pulse and there  will be finite a probability that both  will register simultaneously  if it’s a particle only one of them  so how does one uh do that uh so  actually Schrodinger suggested this and  yannisi and uh Budapest actually tried  it but unfortunately they put in did an  inconclusive experiment so I went back  and started figured out how did one do  it totally conclusively and uh  so I did it actually where you’re using  the the same source that are used for  the uh producing  the for the Mercury uh bellotherm  experiment uh who had  photons going in both ways and two half  silver mirrors and using some a work  front by uh Glover’s formulation what  could show  that’s the The Coincidence rate between  here and here  there should be none of course if if  it’s a particle but but there should be  an anomalous if it’s a wave  uh a coincidence rate the product of  these two coincidence rates here and  here uh must be greater than  the the uh  Pro uh  the product of these coincidence rates  and so here’s the data and it’s quite  the opposite by about uh 20 Sigma  so indeed particles  to do act uh photons do act like  particles  so  as I mentioned before  Mike horn and I were trying to  understand what it is that  Bell’s theorem experiments actually say  so we developed What’s called the theory  of local realism  originally we called it objective local  theories uh in our first paper on it and  it’s an extremely general theory that  takes it to account all of the basic uh  elements of Einstein’s platform  and  uh  in along the way we produced the CH  inequality which is actually a hard  experimental prediction with no  loopholes we did not have any Assumption  of causality which we had earlier in  there was no Behavior requirement for a  particle like Behavior  uh and then there was some discussion  among various other workers John Bell  and admir shimoni added additional  components so presumably  uh it is better called Bill clauser Horn  shimoni local realism  it’s very short-lived as I mentioned it  was already Dead on Arrival  but that wasn’t good enough it had to  really be shown to be dead with no  loopholes  to it by testing  okay what does it assume  localism is extremely Simple Theory  Anton zeilinger and please quote me uh  tell me if if I am misquoting you at one  point he had a conference he said  if  Belle’s inequality  and local over realism had been  discovered  before quantum mechanics  it is so reasonable it would have been  taken as a law of nature or adapted as a  law of nature uh  unfortunately it’s wrong  so what does local realism assume  it assumes  that nature is made out of stuff  um well what is stuff well we we may not  even know what it is it is uh  it is what  I signed Podolski Rosen referred to as  elements of reality it’s what we call  matter or  uh uh What uh closer horn called objects  John Bell referred to it as beebles it’s  there it’s distributed throughout space  now actually Einstein’s whole program in  general as if any in particular goes a  lot further  and he said they said says that well it  has a finite mass energy density and it  it is that density that determines the  whole geometry of the universe  we don’t need that for local realism all  we need is that it’s there  so it could it could evolve  stochastically or it could evolve  uh deterministically we don’t care  it’s stuff  is stuff you can put in a box  you could uh throughout it and it’s the  stuff that’s in the Box  if you’re doing an experiment  the stuff determines the probabilities  of the experiment that you actually do  there  we assume that there are Real Results  the that happen when you do an  experiment  that is  uh  unlike uh Schrodinger actually he he  thought the whole idea of the The Cat In  The Box experiment was a total of  absurdity  we assume that the cat is either alive  or dead and we just don’t know which  that a real result always occurs  presumed that the properties of the  stuff  determine the results of an experiment  you do  the  if you have a parameter setting on your  apparatus  and then you change the parameter  setting presumably you will get a  different result  so what does it predict  well suppose you have two very widely  separated boxes each has stuff in it and  you’re doing experiments in these two uh  wide separated boxes  so you’ve hurt the Assumption the  following Einstein’s uh  requirement for locality is that stuff  in one box  and the out of the  parameter settings  uh the result of the experiment in one  box measuring that stuff cannot be  influenced by the parameter setting  Choice made in the distant box  that’s all you need to produce  uh  uh the uh  the closer horn inequality  okay so here’s what are boxes well  they’re just closed surfaces they  separate each closed surface separates  has a  an inside and an outside  so here we have a pair of boxes  okay these characters are uh well I made  that drawing in  1976 uh before the characters had been  named uh Alice and Bob well okay so this  but she but she perhaps trans I don’t  know  so what uh  here we have  Alice and Bob making measurements  and they get a result yes no on each  side  so we have our boxes here are now  shrinking at the speed of light  and so there’s drawn so that we’re doing  the experiments when there’s space like  separated  so if I plotted versus X and time  uh here are the boxes  shrinking  uh simultaneously and doing experiments  so the assumption is that stuff back  here in the common overlap region is  what is the result of of the extremist  if you read some of John Bell’s stuff  you have to be careful for some reason  he had these reverse he had the arrow of  time going to the left uh I’m sure he  had a reason for it but I don’t know  what it was  okay  it’s dead Jim  I apologize to Star Trek  who was for a long time it was very  difficult to do this the technology just  simply did not exist back in 74.  but it has improved  so  it became very important to eliminate  the loopholes in the earlier CH tests of  the chsh inequality and uh  to really do a loophole free experiment  and finally most recently at a labs in  Vienna  and in Champaign Urbana uh Illinois  uh  it has been totally killed dead  okay  now I will use what my time remaining  to make a  a value statement if you will about why  I have the fattest idea what’s going on  and I argue that in fact there’s been an  elephant in the room pardon the metaphor  that has been hanging around ever since  uh Schrodinger and epr  remember the trottinger produced two  very different equations  he had one for hydrogen with only a  single particle  and he had another one for helium which  had two particles  nobody seemed concerned at the time  about the fact that these two equations  were formulated in very different spaces  and they I are what I believe is  improperly linked and I’ll go on to that  in a minute by what I call borns  ambiguity born was the one who who said  that they are equivalent  and this this has been the elephant’s  been hiding in plain sight  and I noticed that in fact the Einstein  podolsky Rosen art debate a bore debate  was never really settled  various textbook authors  believed one or the other of the authors  and they’re developed in the literature  in the textbook industry two very  different schools of thought and  most people never seem to notice this  but  with the Advent of local realism and  quantum entanglement  then it became clear that one could  actually contrast and identify these two  schools of thought  okay School number one either is  essentially a form of local realism  so one of the textbooks that promote uh  uh uh the  School number one  it is what I call the laboratory space  formulation of quantum mechanics  okay it was taught you’re all I kind of  cut off the uh the list at about 1980  begin at first was born born’s textbook  two very important uh textbooks uh  familiar Dickie and whitkey and  mersbacher were very popular  uh all follow this uh  like for example inborn case  the waves are propagating in the lab and  he shows pictures of waves moving around  all of these books show waves in the it  was propagating through a two-slit  experiment in lab space  Feynman uh this is his review article  1948 even puts it into the title this is  a space-time uh operation French French  and Taylor uh using MIT and of course  the Original Classic shift  okay what is School number one  Quantum Mechanics for single particle  systems is formulated in lab space or  real space the XYZ of this room  and Heather is a point every point in  this lab space has a vector to it  and Schrodinger’s wave function is a  function of its position uh in the room  or in the lab  and more importantly  the probability density PSI star PSI  is a function of his position in the  room  it is  the evolution of  of these waves is governed by  Schrodinger’s equation in lab space  and it depicts waves of probability  you’ve probably heard any number of  people describe quantum mechanics says  waves the probability moreover there’s  also it’s defined by born a conserved uh  probability current which flows like a  fluid through through the lab  and he famously used that uh of current  to describe flux conservation  frieden Rutherford scattering  unfortunately  it only works the slab school of thought  number one only works for single  particle  systems it cannot describe  two particle systems or and it cannot  describe entanglement  so what’s goal number two  also had a large group of textbooks  which very specifically said we are in  configuration space  okay probably one of the most important  ones but beta and saw Peter with the  authoritative work on hydrogen and  helium Jordan and Drell relative is a  quantum mechanics caught in and shortly  uh  calculate Spectra of atoms  land down on lift shits great quantum  mechanics to expect it was translated by  John Bell actually and messiah’s famous  book  uh  except he he claims he’s in in  configuration space but actually he  cheats a bit  and probably most importantly fall was  Von Neumann’s textbook  okay what is  the configuration space  School  of quantum mechanics  it is a very very different from what I  just described  the wave function  depends on A System’s degrees of freedom  this Kim’s there could be many of them  uh there could be k degrees of some  large number k  and  so we have a wave function and these are  all this is straight out of Von  Neumann’s uh both  so if you have say two particles in  helium then  now the argument space of the wave  function is very different it has an x y  z of particle one XYZ of particle two  wait  our lab does not have six dimensions  something has dramatically changed  importantly  the  position in the lab  is not one of the arguments that means  that its value is the same everywhere is  base unlike the lab space formulation  that there were it’s different every  point in space  so Schrodinger’s equation now is very  different it’s divided describing the  evolution of particles in this  configuration space  it’s an abstract mathematical space  it is not at all this the space uh that  Star Trek was exploring  the a few important and it’s absolutely  required if you want to discuss more  than one particle systems  borns conserved currents  cannot be drawn in  a configuration space  Green’s theorem does not apply more  importantly  the there is no prohibition  for propagation of signals faster than  life in configuration space it’s a  purely  arbitrary space  totally as fact it’s what the  imaginations call a vector space not at  all  so  it was been asserted  and I as far as I could trace back this  was originally to to Bourne’s uh  dog that uh  these two cases are are the same  they are not  clearly the two uh wave functions are  very different they are not equivalent  one depends on the position of space one  does not there are no Associated  probability waves  for configuration space  so for my last slide I will describe why  I find this all totally confusing  you gotta have configuration space  in order to  describe more than one particle systems  but there’s no reason  uh that the special case of signal  particle systems should be any different  so you need a  so  and we notice really that the  lab space formulation is  uh  really a form of local realism  it’s dead Jim  so  now all of these great models  conceptual models of probability waves  propagating in space are also dead  the flow of currents probability  currents are dead  I don’t know how to visualize  propagation in configuration space  there are a lot of people here who know  a lot more quantum mechanics than I do  and maybe one of them will help me  understand  what does it mean to have a way of  propagating and configuration space I  don’t know uh thinking Wiki and Bruce  bucker were on my side they both said  gave up and said oh gee this is all our  our great models i.ei earlier uh  sections of the book we really should  throw throw away  so I have one final challenge  to my theorist friends if I still have  any  remember we said that that  general relativity  uh is a form of local realism  so and it is a general relativity that  for example gives us black holes  so  but that’s all formulated in  under a local realism Theory so my  challenge is to the theorists is it  possible to have two entangled black  hole spins  thank you </p>
-
-      
-    </div>
-    <footer class="entry-meta entry-footer">
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Physics/">Physics</a>, <a class="article-category-link" href="/categories/Physics/Quantum-Physics/">Quantum Physics</a>
-
-      
-      
-    </footer>
-    <hr class="entry-footer-hr">
-  </div>
-  
-</article>
-
-<!-- Table of Contents -->
 
   
     <article id="post-history/my_world"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+  <div id="articleInner" class="article-inner">
     
     
       <header class="article-header">
@@ -475,41 +545,45 @@
     <div class="article-meta">
       
 	<a href="/2023/07/11/history/my_world/" class="article-date">
-	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">July 11, 2023</time>
+	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">2023-07-11</time>
 	</a>
 
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/History-Politics/">History & Politics</a>, <a class="article-category-link" href="/categories/History-Politics/American-History-Politics/">American History & Politics</a>
- 
+    <a class="article-category-link" href="/categories/History-Politics/">History & Politics</a><a class="article-category-link" href="/categories/History-Politics/American-History-Politics/">American History & Politics</a>
+
       
+      
+
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p>2023.8.5.</p>
-<p>To arrange and typeing in my orginal generated views on U.S. history and politics.</p>
-<p>The purpose to learn the American history is to better understand how is the world operating. To take a deeper look into the most influential country on planet earth at least in the temporary period that the human kind is going through.  This could vastly possibly increase and broad my vision about my views and analysis on this world, which is also highly possibly to aid me getting great amount of mercenary profits.</p>
-
+        <p class="article-excerpt-content">
+          2023.8.5.
+To arrange and typeing in my orginal generated views on U.S. history and politics.
+The purpose to learn the American history is to better understand how is the world operating. To take a deeper look into the most influential country on p...
+        </p>
+        <p class="article-more-link">
+          <a href="/2023/07/11/history/my_world/#more">Read More</a>
+        </p>
       
     </div>
-    <footer class="entry-meta entry-footer">
+    <footer class="article-footer">
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/History-Politics/">History & Politics</a>, <a class="article-category-link" href="/categories/History-Politics/American-History-Politics/">American History & Politics</a>
+      
+      
+      
 
-      
-      
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
+
   
     <article id="post-general/柔曳"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+  <div id="articleInner" class="article-inner">
     
     
       <header class="article-header">
@@ -525,48 +599,44 @@
     <div class="article-meta">
       
 	<a href="/2023/07/11/general/%E6%9F%94%E6%9B%B3/" class="article-date">
-	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">July 11, 2023</time>
+	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">2023-07-11</time>
 	</a>
 
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/General-Works/">General Works</a>, <a class="article-category-link" href="/categories/General-Works/Universal-Sets/">Universal Sets</a>, <a class="article-category-link" href="/categories/General-Works/Universal-Sets/%E4%B8%AD%E6%96%87/">中文</a>
- 
+    <a class="article-category-link" href="/categories/General-Works/">General Works</a><a class="article-category-link" href="/categories/General-Works/Universal-Sets/">Universal Sets</a><a class="article-category-link" href="/categories/General-Works/Universal-Sets/%E4%B8%AD%E6%96%87/">中文</a>
+
       
+      
+
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        
-
+        <p class="article-excerpt-content">
           
-          <div class="entry-summary">
-          Here's something encrypted, password is required to continue reading.
-
-        
-          <p class="article-more-link">
-            <a href="/2023/07/11/general/%E6%9F%94%E6%9B%B3/#more">Continue Reading →</a>
-          </p>
-        </div>
+  6730ef63d3ecb79bd38e91e43b31b135ef883df005a0b56cd303a5b59e266f8b36d074ff998879aa4d640f4a46a735b7e98ca3881446e2a10753a6c6890cf284f68995aef672a84ab5cee289a63664f0622cfc754fce819dfa8d40f0a55f77ae78c3adcd61987111d7678faa47304c2863627224b2ea6c9df54b...
+        </p>
+        <p class="article-more-link">
+          <a href="/2023/07/11/general/%E6%9F%94%E6%9B%B3/#more">Read More</a>
+        </p>
       
     </div>
-    <footer class="entry-meta entry-footer">
+    <footer class="article-footer">
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/General-Works/">General Works</a>, <a class="article-category-link" href="/categories/General-Works/Universal-Sets/">Universal Sets</a>, <a class="article-category-link" href="/categories/General-Works/Universal-Sets/%E4%B8%AD%E6%96%87/">中文</a>
+      
+      
+      
 
-      
-      
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
+
   
     <article id="post-history/美国政治历史简史1~10"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+  <div id="articleInner" class="article-inner">
     
     
       <header class="article-header">
@@ -582,414 +652,50 @@
     <div class="article-meta">
       
 	<a href="/2023/07/11/history/%E7%BE%8E%E5%9B%BD%E6%94%BF%E6%B2%BB%E5%8E%86%E5%8F%B2%E7%AE%80%E5%8F%B21~10/" class="article-date">
-	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">July 11, 2023</time>
+	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">2023-07-11</time>
 	</a>
 
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/History-Politics/">History & Politics</a>, <a class="article-category-link" href="/categories/History-Politics/American-History-Politics/">American History & Politics</a>
- 
+    <a class="article-category-link" href="/categories/History-Politics/">History & Politics</a><a class="article-category-link" href="/categories/History-Politics/American-History-Politics/">American History & Politics</a>
+
       
+      
+
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="Preview"><a href="#Preview" class="headerlink" title="Preview"></a>Preview</h1><p>hi and welcome to crash course u.s  history a course that approximately  follows the ap  u.s history curriculum as it appeared in  2013  and even though we call it u.s history  we do begin before any europeans show up  in north america  from the 15th century we’ll take you  through every beat of the country’s  history until we reach barack obama’s  presidency  this will include all the well-known  events we’ll learn about  the revolutionary war the civil war  women’s suffrage the world wars civil  rights and so on  but we’ll introduce you to some  lesser-known events and people as well  we’ll do that  via primary sources that do a deep dive  into how people were reacting to the  time period they were living through  we’ll also consider who was given the  privilege to have their reactions  recorded  because when citizens are marginalized  based on class gender or race  that history isn’t just history it  touches every part of the present so  we’ll learn it all together and try to  make sense of the united states  complicated history  oh and if jon gets the mystery document  wrong he’ll be shocked  literally.</p>
-<h2 id="1"><a href="#1" class="headerlink" title="1"></a>1</h2><p>Hi I’m John Green, and this is Crash Course U.S. History!</p>
-<p>No, Stan. That’s not gonna work, actually.</p>
-<p>I mean, we’re talking about the 16th century today,when this was neither united nor states.</p>
-<p>By the way, this globe reflects the fact that I believe that Alaskan statehood is illegitimate!</p>
-<p>In fact, we’re going to call this whole show “U.S. History”</p>
-<p>but inevitably it is going to involve other parts of the world and also, not to brag, a small part of the moon.</p>
-<p>Sorry, we can be a little bit self-aggrandizing sometimes, here in America.</p>
-<p>So to begin U.S. history, we’re not going to talk about the United states or this guy.</p>
-<p>We’re going to talk about the people who lived here before any Europeans showed up.</p>
-<p>North America was home to a great variety of people so it’s difficult to generalize, but here’s what we can say:</p>
-<p>One, when the Europeans arrived there were no classical-style civilizations with monumental architecture and empires like the Aztec or the Incas.</p>
-<p>And two, native North Americans had no metalwork, no gun powder, no wheels, no written languages, and no domesticated animals.</p>
-<p>However, they did have farming, complex social and political structures, and widespread trade networks.</p>
-<blockquote>
-<blockquote>
-<p>Mr. Green! Mr. Green! So they were pretty backwards, huh? Well, or I mean at least primitive.</p>
-</blockquote>
-</blockquote>
-<blockquote>
-<blockquote>
-<p>“Primitive” is a funny word, me from the past, because it implies a romanticization –</p>
-</blockquote>
-</blockquote>
-<p>these simple people who never used more than they needed and had no use for guns. And it also implies an infantilization. It’s like you believe just because you have a beeper and they didn’t they were somehow less-evolved humans. But you can’t see the human story as one that goes from primitive to civilized. That’s not just Eurocentric that’s contemporary-centric. The idea that we’re moving forward as a species implies a linear progression that just does not reflect the reality of life on this planet. I get that you like to imagine yourself as the result of millennia of advancement and the very pinnacle of human-ness, but from where I’m sitting that worldview is a lot more backwards than living without the wheel. So no one knows exactly how many people lived in North America before the Europeans got here. Some estimates are as high as 75 million, but in the present US borders the guesses are between 2 and 10 million. And like other Native Americans their populations were decimated by diseases such as smallpox and influenza. Actually it was much worse than decimation. As many of you have pointed out, “decimation” means 1 in 10. This was much worse than that. It was closer maybe to 8 in 10, which would be an “octicimation.” So there had been civilizations in North America but they peaked before the Europeans arrived. The Zuni and Hopi civilization roundabout here peaked</p>
-<p>about 1200 CE. </p>
-<p>They had large, multiple-family dwellings and canyons, which they probably left because of drought. Crash Course World History fans will remember that environmental degradation often causes the decline of civilizations. I’m looking at you, Indus Valley, and also you, entire future Earth. Eut complex civilizations weren’t the rule in North America. And now we’re about to begin generalizing, a bad habit historians have partly because there’s a limited historical record but also because Eurocentric historians have a bad habit of primitivizing and simplifying others. So I want to underscore that there was huge diversity in the pre-Columbus American experience and that talking about someone who lived here in 1000 BCE and talking about someone who lived here 2,000 years later is just inherently problematic.  </p>
-<p>That said, let’s go to the Thought Bubble: Most native groups in most places organized as tribes, and their lives were dominated by the natural resources available where they lived. So West Coast Indians primarily lived by fishing, gathering, and hunting sea mammals; Great Plains Indians were often buffalo hunters. These tribal bands often united into loose confederacies or leagues, the best-known of which was probably the Iroquois Confederacy, also called the Great League of Peace. This was kind of like an upstate New York version of NATO but without a nuclear weapons or the incessant international meddling or Latvians– Okay, it was nothing like NATO, actually. Religion usually involved a vibrant spiritual world with ceremonies geared toward the tribe’s lifestyle: hunting tribes focused on animals, agricultural tribes on good harvests. And most Indian groups believed in a single creator god who stood above all the other deities, but they weren’t monotheistic in the way that Christians who came to the New World were. American Indians also saw property very differently from Europeans. To First Peoples, land was a common resource that village leaders could assign families to use but not to own, and most land was seen as common to everyone. As Blackhawk, a leader of the Sauk tribe, said, “The Great Spirit gave it to his children to</p>
-<p>live upon and cultivate as far as necessary for their subsistence; and so long as they occupy and cultivate it, they have a right to the soil.”</p>
-<p>Thanks, Thought Bubble. Many of us tend to romanticize American Indians as being immune from greed and class, but in fact there were class distinctions in Indian tribes. Rulers tended to come from the same families, for instance. That said, wealth was much more evenly distributed than it was in Europe. And while most tribal leaders were men, many tribes were matrilineal meaning that children became members of their mother’s family. Also women were often important religious leaders. Women also often owned dwellings and tools, although not land because again that idea did not exist. Also in many tribes women engaging in premarital skoodilypooping wasn’t taboo. In general they were just much less obsessed with female chastity than Europeans were. I mean I will remind you the first English settlement in America was called “Virginia.” The idea that Native Americans were noble savages, somehow purer than Europeans and untouched by their vices is not a new one. Like some of the earliest European saw the Indians as paragons of physical beauty and innocent of Europeans’ worst characteristics. But for most Europeans there was little noble about what they saw as pure Indian savagery. I mean Indians didn’t have writing, they suffered from the terrible character flaw of being able to have sex without feeling ashamed, and most importantly they weren’t Christians. The Spanish were the first Europeans to explore this part of the world. Juan Ponce de León arrived in what is now Florida in 1513 looking for gold and the fabled Fountain of Youth. In 1521 he encountered a Calusa brave’s poison-tipped arrow and died before discovering that the Fountain of Youth is of course delicious Diet Dr. Pepper. Mmm, ahh. I can taste all 23 flavors. There were many more Spanish explorers in the first half of the 16th century including one Álvar Nuñez Cabeza de Vaca, who wandered through the American Southwest looking for gold, which I mentioned entirely because I think that guy’s last name means “cow head.” Of course none of these people found any gold, but they did make later European colonization easier by bringing over the microbes that wiped out most native populations. So the Spanish wanted to colonize Florida to set up military bases to thwart the pirates who preyed on silver-laden Spanish galleons coming out of México. But Spanish missionaries also came over hoping to convert local native populations. This of course worked out magnificently. Just kidding, it went terribly. Many of the missions were destroyed by an uprising of Guale Indians in 1597, and I will remind you mispronouncing things is my thing. In general colonizing Florida sucked because it was hot and mosquito-y. Spain was much more successful at colonizing the American Southwest. In 1610 Spain established its first permanent settlement in the southwest at Santa Fe, New México. You couldn’t really say that it flourished since Santa Fe’s population never got much above 3,000, but it had a great small-town feel. New México is really important because it’s the site of the first large-scale uprising by Native Americans against Europeans. I mean the native people, who the Spanish called “Pueblos,” had seen their fortunes decline significantly since the arrival of Europeans. How much decline? Well, between 1600 and 1680 their population went from about 60,000 to about 17,000. Also the Franciscan friars who came to convert the indigenous people became increasingly militant about stamping out all native religion. The Spanish Inquisition just wasn’t very keen on the kind of cultural blending that made early conversion efforts successful. So while the Spanish saw all the Pueblos as one people they also knew there were tribal differences that made it difficult for the Indians to unite and rise up against the Spanish. But nothing unites like a common enemy, and in 1680 a religious leader named Popé organized an uprising to drive the Spaniards out. Popé organized about 2,000 warriors, who killed 400 Spanish colonists and forced the rest to leave Santa Fe. So the Spanish colony in New México was effectively destroyed. The Pueblos tore down all the Christian churches and replaced them with kivas (their places of worship), but like most awesome uprisings it didn’t last. After the revolt the Spanish were much more tolerant of indigenous religion, and they also abandoned the forced labor practice called encomienda. Oh, it’s time for the new Crash Course feature the “Mystery Document”? How mysterious. The rules here are simple: I read an attempt to identify the mystery document. If I am right, I do not get shocked by this shock pen. And if I am wrong, I do. Okay, what do we have here? “The Indians were totally deprived of their freedom and were put in the harshest, fiercest most horrible servitude and captivity which no one who has not seen it can understand. Even beasts enjoy more freedom when they are allowed to graze in the fields. But our Spaniards gave no such opportunity to Indians and truly considered them perpetual slaves. I sometimes came upon dead bodies on my way, and upon others who were grasping and moaning in their death agony repeating, ‘Hungry, hungry.’ Andthis was the freedom, the good treatment and the Christianity the Indians received.” Well, that’s nice. Okay, so the mystery document is always a primary source, and since the writer refers to “our Spaniards” I’m going to guess that he or she (probably he) is European and a Spaniards sympathetic to the Indians, which narrows the list of suspects considerably. So it probably wasn’t de Sepúlveda for instance, who argued that the Indians might not even be human. Okay, Stan I’m actually pretty confident here. I believe it is from “A Short Account of the Destruction of the Indies” by Bartolomé de las Casas. Ah, dang it! Stan just told me I have the author right but the book wrong. It’s “A History of the Indies.” Oh, I hate shocks, both literal and metaphorical. So we focused a lot on the brutality of the Spanish toward the Indians, but at least one Spaniard, de las Casas, recognized that his countrymen were terrible. This realization is a good thing, obviously, but it leads us to one of the big problems when it comes to studying this time and place. The Black Legend is the tale that the Spanish unleashed unspeakable cruelty on the Indians. Now, that tale is true.  But that idea was used by later settlers, especially the English, to justify their own settlements. Like part of the reason they needed to expand their empire was to save the Indians from the awful Spanish, but were the English so much better? Yeah, probably not. As we mentioned at the beginning of today’s episode, American Indians didn’t have writing so we don’t have records of their perspective. Now, some Europeans like de las Casas were critical of the Spaniards, but most considered the Indians heathens and implied or even outright said that they deserved whatever horrible things befell them. So at the beginning of our series I want to point out something that we need to remember throughout: One of the great things about American history is that we have a lot of written sources. This is the advantage of the U.S. coming onto the scene so late in the game, historically speaking, But every story we hear comes from a certain point of view. And we always need to remember who is speaking, why they are speaking, and especially which voices go unheard and why. Thanks for watching. I’ll see you next week. </p>
-<h1 id="2"><a href="#2" class="headerlink" title="2"></a>2</h1><p>Hi I’m John Green, this is Crash Course US History,</p>
-<p>and today we’re going to tell the story of how a group of plucky English people struck a blow for religious freedom,</p>
-<p>and founded the greatest, freest and fattest nation the world has ever seen.</p>
-<p>[Libertage]</p>
-<p>These Brits entered a barren land containing no people,</p>
-<p>and quickly invented the automobile, baseball and Star Trek and we all lived happily ever after.</p>
-<p>Mr. Green, Mr. Green, if it is really that simple, I am so getting an A in this class.</p>
-<p>Oh, me from the past, you’re just a delight.</p>
-<p>[Theme Music]</p>
-<p>So most Americans grew up hearing that the United States was founded by pasty English people</p>
-<p>who came here to escape religious persecution.</p>
-<p>And that’s true of the small proportion of people who settled in the Massachusetts Bay</p>
-<p>and created what we now know is New England.</p>
-<p>But these Pilgrims and Puritans, there’s a difference, weren’t the first people</p>
-<p>or even the first Europeans to come to the only part of the globe we didn’t paint over.</p>
-<p>In fact they weren’t the first English people.</p>
-<p>The first English people came to Virginia.</p>
-<p>Off topic but how weird is it that the first permanent English colony in the Americas was named</p>
-<p>not for Queen Elizabeth’s epicness but for her supposed chastity.</p>
-<p>Right anyway, those first English settlers weren’t looking for religious freedom, they wanted to get rich.</p>
-<p>So the first successful English colony in America was founded in Jamestown, Virginia in 1607.</p>
-<p>I say “successful” because there were two previous attempts to colonize the region.</p>
-<p>They were both epic failures.</p>
-<p>The more famous of which was the colony of Roanoke Island set up by Sir Walter Raleigh,</p>
-<p>which is famous because all the colonists disappeared leaving only the word “Croatoan” on carved into a tree.</p>
-<p>Jamestown was a project of the Virginia Company,</p>
-<p>which existed to make money for its investors, something it never did.</p>
-<p>The hope was that they would find gold in the Chesapeake region like the Spanish had in South America,</p>
-<p>so there were a disproportionate number of goldsmiths</p>
-<p>and jewelers there to fancy up that gold which of course did not exist.</p>
-<p>Anyway, it turns out that jewelers dislike farming –</p>
-<p>so much so, that Captain John Smith who soon took over control of the island once said</p>
-<p>that they would rather starve than farm.</p>
-<p>So in the first year, half of the colonists died.</p>
-<p>400 replacements came, but, by 1610, after a gruesome winter called “The Starving Time,”</p>
-<p>the number of colonists had dwindled to 65.</p>
-<p>And eventually word got out that the new world’s 1 year survival rate was</p>
-<p>like 20% and it became harder to find new colonists.</p>
-<p>But 1618, a Virginia company hit upon a recruiting strategy called the headright system</p>
-<p>which offered 50 acres of land for each person that a settler paid to bring over.</p>
-<p>And this enabled the creation of a number of large estates,</p>
-<p>which were mostly worked on and populated by indentured servants.</p>
-<p>Indentured servants weren’t quite slaves, but they were kind of temporary slaves.</p>
-<p>Like they could be bought and sold and they had to do what their masters commanded.</p>
-<p>But after seven to ten years of that, if they weren’t dead,</p>
-<p>they were paid their freedom dues which they hoped would allow them to buy farms of their own.</p>
-<p>Sometimes that worked out, but often either the money wasn’t enough to buy a farm,</p>
-<p>or else they were too dead to collect it.</p>
-<p>Even more ominously in 1619, just 12 years after the founding of Jamestown,</p>
-<p>the first shipment of African slaves arrived in Virginia.</p>
-<p>So the colony probably would have continued to struggle along,</p>
-<p>if they hadn’t found something that people really loved: tobacco.</p>
-<p>Tobacco had been grown in Mexico since at least 1000 BCE,</p>
-<p>but the Europeans had never seen it and it proved to be kind of a</p>
-<p>“thank you for the small pox; here’s some lung cancer” gift from the natives.</p>
-<p>Interestingly King James hated smoking.</p>
-<p>He called it “a custom loathsome to the eye and hateful to the nose”</p>
-<p>but he loved him some tax revenue, and nothing sells like drugs.</p>
-<p>By 1624 Virginia was producing more than 200,000 pounds of tobacco per year.</p>
-<p>By the 1680s, more than 30 million pounds per year.</p>
-<p>Tobacco was so profitable the colonists created huge plantations with very little in the way of towns</p>
-<p>or infrastructure to hold the social order together, a strategy that always works out brilliantly.</p>
-<p>The industry also structured Virginian society.</p>
-<p>First off, most of the people who came in the 17th century, three-quarters of them, were servants.</p>
-<p>So Virginia became a microcosm of England:</p>
-<p>a small class of wealthy landowners sitting atop a mass of servants.</p>
-<p>That sounds kind of dirty but it was mostly just sad.</p>
-<p>The society was also overwhelmingly male, because male servants were more useful in the tobacco fields,</p>
-<p>they were the greatest proportion of immigrants.</p>
-<p>In fact they outnumbered women 5 to 1.</p>
-<p>The women who did come over were mostly indentured servants,</p>
-<p>and if they were to marry, which they often did because they were in great demand,</p>
-<p>they had to wait until their term of service was up.</p>
-<p>This meant delayed marriage which meant fewer children which further reduced the number of females.</p>
-<p>Life was pretty tough for these women, but on the upside Virginia was kind of a swamp of pestilence,</p>
-<p>so their husbands often died, and that created a small class of widows or even unmarried women who,</p>
-<p>because of their special status, could make contracts and own property, so that was good, sort of.</p>
-<p>OK. A quick word about Maryland.</p>
-<p>Maryland was the second Chesapeake Colony, founded in 1632,</p>
-<p>and by now there was no messing around with joint stock companies.</p>
-<p>Maryland was a proprietorship: a massive land grant to a single individual named Cecilius Calvert.</p>
-<p>Calvert wanted to turn Maryland into like a medieval feudal kingdom to benefit himself and his family,</p>
-<p>and he was no fan of the representational institutions that were developing in Virginia.</p>
-<p>Also Calvert was Catholic, and Catholics were welcome in Maryland which wasn’t always the case elsewhere.</p>
-<p>Speaking of which, let’s talk about Massachusetts.</p>
-<p>So Jamestown might have been the first English colony, but Massachusetts Bay is probably better known.</p>
-<p>This is largely because the colonists who came there were so recognizable for their beliefs and also for their hats.</p>
-<p>That’s right. I’m talking about the Pilgrims and the Puritans.</p>
-<p>And no, I will not be talking about Thanksgiving</p>
-<p>…is a lie. I can’t help myself.</p>
-<p>But only to clear up the difference between Pilgrims and Puritans and also to talk about Squanto.</p>
-<p>God I love me some Squanto. Let’s go to the Thought Bubble.</p>
-<p>Most of the English men and women who settled in New England were uber-Protestant Puritans</p>
-<p>who believed the Protestant Church of England was still too Catholic-y</p>
-<p>with its kneeling and incense and extravagantly-hatted archbishops.</p>
-<p>The particular Puritans who, by the way did not call themselves that – other people did,</p>
-<p>who settled in new England were called Congregationalists</p>
-<p>because they thought congregations should determine leadership and worship structures, not bishops.</p>
-<p>The Pilgrims were even more extreme.</p>
-<p>They wanted to separate more or less completely from the Church of England.</p>
-<p>So first they fled to the Netherlands, but the Dutch were apparently too corrupt for them,</p>
-<p>so they rounded up investors and financed a new colony in 1620.</p>
-<p>They were supposed to land in Virginia, but in what perhaps should have been taken as an omen,</p>
-<p>they were blown wildly off course and ended up in what’s now Massachusetts, founding a colony called Plymouth.</p>
-<p>While still on board their ship the Mayflower,</p>
-<p>41 of the 150 or so colonists wrote and signed an agreement called the Mayflower Compact,</p>
-<p>in which they all bound themselves to follow “just and equal laws” that their chosen representatives would write-up.</p>
-<p>Since this was the first written framework for government in the US, it’s kind of a big deal.</p>
-<p>But anyway, the Pilgrims had the excellent fortune of landing in Massachusetts with 6 weeks before winter,</p>
-<p>and they had the good sense not to bring very much food with them or any farm animals.</p>
-<p>Half of them died before winter was out.</p>
-<p>The only reason they didn’t all die was that local Indians led by Squanto gave them food and saved them.</p>
-<p>A year later, grateful that they had survived mainly due to the help of an alliance with the local chief Massasoit,</p>
-<p>and because the Indians had taught them how to plant corn and where to catch fish,</p>
-<p>the Pilgrims held a big feast: the first Thanksgiving. Thanks Thought Bubble!</p>
-<p>And by the way, that feast was on the fourth Thursday in November,</p>
-<p>not mid-October as is celebrated in some of these green areas we call Not America.</p>
-<p>Anyway Squanto was a pretty amazing character and not only because he helped save the Pilgrims.</p>
-<p>He found that almost all of his tribe, the Patuxet had been wiped out by disease</p>
-<p>and eventually settled with the Pilgrims on the site of his former village and then died…</p>
-<p>of disease because it is always ruining everything.</p>
-<p>So the Pilgrims struggled on until 1691</p>
-<p>when their colony was subsumed by the larger and much more successful Massachusetts Bay Colony.</p>
-<p>The Massachusetts Bay colony was chartered in 1629 by London merchants who,</p>
-<p>like the founders of the Virginia Company, hoped to make money.</p>
-<p>But unlike Virginia, the board of directors relocated from England to America,</p>
-<p>which meant that in Massachusetts they had a greater degree of autonomy and self-government than they did in Virginia.</p>
-<p>Social unity was also much more important in Massachusetts than it was in Virginia.</p>
-<p>The Puritans’ religious mission meant that the common good was, at least at first,</p>
-<p>put above the needs or the rights of the individual.</p>
-<p>Those different ideas in the North and South about the role of government would continue…until now.</p>
-<p>Oh God. It’s time for the mystery document?</p>
-<p>The rules are simple. I read the mystery document which I have not seen before.</p>
-<p>If I get it right, then I do not get shocked with the shock pen, and if I get it wrong I do.</p>
-<p>All right.</p>
-<p>“We must be knit together in this work as one man, we must entertain each other in brotherly affection,</p>
-<p>we must be willing to abridge ourselves of our superfluities (su-per-fluities? I don’t know),</p>
-<p>for the supply of others necessities,</p>
-<p>we must uphold a familiar commerce together in all meekness, gentleness, patience and liberality,</p>
-<p>…for we must consider that we shall be as a city upon a hill, the eyes of all people are upon us;</p>
-<p>so that if we shall deal falsely with our god in this work we have undertaken</p>
-<p>and so cause him to withdraw his present help from us,</p>
-<p>we shall be made a story and a byword through the world.”</p>
-<p>Alright, first thing I noticed: the author of this document is a terrible speller</p>
-<p>or possibly wrote this before English was standardized.</p>
-<p>Also, a pretty religious individual.</p>
-<p>And the community in question seems to embrace something near socialism:</p>
-<p>abridging the superfluous for others’ necessities.</p>
-<p>Also it says that the community should be like a city upon a hill, like a model for everybody.</p>
-<p>And because of that metaphor, I know exactly where it comes from:</p>
-<p>the sermon “A Model of Christian Charity” by John Winthrop.</p>
-<p>Yes! Yes! No punishment!</p>
-<p>This is one of the most important sermons in American history.</p>
-<p>It shows us just how religious the Puritans were,</p>
-<p>but it also shows us that their religious mission wasn’t really one of individualism but of collective effort.</p>
-<p>In other words, the needs of the many outweigh the needs of the few or the one.</p>
-<p>But this city on a hill metaphor is the basis for one kind of American exceptionalism:</p>
-<p>the idea that we are so special and so godly that we will be a model to other nations,</p>
-<p>at least as long, according to Winthrop, as we act together.</p>
-<p>Lest you think Winthrop’s words were forgotten,</p>
-<p>they did become the centerpiece of Ronald Reagan’s 1989 farewell address.</p>
-<p>Okay so New England towns were governed democratically,</p>
-<p>but that doesn’t mean that the Puritans were big on equality</p>
-<p>or that everybody was able to participate in government because no.</p>
-<p>The only people who could vote or hold office were church members,</p>
-<p>and to be a full church member you had to be a “visible saint”,</p>
-<p>so really, power stayed in the hands of the church elite. The same went for equality.</p>
-<p>While it was better than in the Chesapeake Colonies or England, as equality went…eh, pretty unequal.</p>
-<p>As John Winthrop declared, “Some must be rich, and some poor.</p>
-<p>Some high, an eminent in power, and dignity; others mean and in subjection.”</p>
-<p>Or as historian Eric Foner put it</p>
-<p>“Inequality was considered an expression of God’s will and while some liberties applied to all inhabitants,</p>
-<p>there were separate lists of rights for freemen, women, children and servants.”</p>
-<p>There was also slavery in Massachusetts. The first slaves were recorded in the colony in 1640.</p>
-<p>However, Puritans really did foster equality in one sense.</p>
-<p>They wanted everyone to be able to read the Bible.</p>
-<p>In fact, parents could be punished by the town councils for not properly instructing</p>
-<p>their children in making them literate.</p>
-<p>But when Roger Williams called for citizens to be able to practice any religion they chose,</p>
-<p>he was banished from the colonies.</p>
-<p>So was Ann Hutchinson who argued the church membership should be based on inner grace</p>
-<p>and not on outward manifestations like church attendance.</p>
-<p>Williams went on to found Rhode Island, so that worked out fine for him,</p>
-<p>but Hutchinson, who was doubly threatening to Massachusetts</p>
-<p>because she was a woman preaching unorthodox ideas,</p>
-<p>was too radical and was further banished to Westchester, New York where she and her family were killed by Indians.</p>
-<p>Finally, somebody who doesn’t die of disease or starvation.</p>
-<p>So Americans like to think of their country as being founded by pioneers of religious freedom</p>
-<p>who were seeking liberty from the oppressive English.</p>
-<p>We’ve already seen that’s only partly true.</p>
-<p>For one thing, Puritan ideas of equality and representation weren’t particularly equitable or representational.</p>
-<p>In truth, America was also founded by indigenous people and by Spanish settlers,</p>
-<p>and the earliest English colonies weren’t about religion; they were about money.</p>
-<p>We’ll see this tension between American mythology and American history again next week and also every week.</p>
-<p>Thanks for watching; I’ll see you next time.</p>
-<p>Crash Course is produced and directed by Stan Muller, our script supervisor is Meredith Danko,</p>
-<p>the associate producer is Danica Johnson,</p>
-<p>the show is written by my high school history teacher, Raoul Meyer and myself,</p>
-<p>and our graphics team is Thought Bubble.</p>
-<p>If you have questions about today’s video or really about anything about American history,</p>
-<p>ask them in comments;</p>
-<p>the entire Crash Course team and many history professionals are there to help you.</p>
-<p>Thanks for watching Crash Course.</p>
-<p>Please make sure you are subscribed and, as we say in my home town, “Don’t forget to be awesome.”</p>
-<h1 id="10"><a href="#10" class="headerlink" title="10"></a>10</h1><p>Hi I’m John Green, this is Crash Course US History, and today we’re going to discuss Thomas Jefferson.</p>
-<p>We’re going to learn about how America became a thriving nation of small, independent farmers,</p>
-<p>eschewing manufacturing and world trade,</p>
-<p>and becoming the richest and most powerful nation in the world in the 19th century, all thanks to the vision of Thomas Jefferson,</p>
-<p>the greatest and most intellectually consistent Founding Father, who founded the University of Virginia and grew 20 varieties of peas at Monticello.</p>
-<p>Me From the Past, get to your desk!</p>
-<p>In a stunning turn of events, Me From the Past is an idiot and Jefferson is more complicated than that.</p>
-<p>[Theme Music]</p>
-<p>So in 1800, Thomas Jefferson, pictured here – this is the third time that we’ve featured Thomas Jefferson on the chalkboard, so we had to go a little Warhol on it.</p>
-<p>Right, so, Jefferson, the Republican, ran against John Adams, the Federalist.</p>
-<p>1800 was the first election where both parties ran candidates and actually campaigned.</p>
-<p>And, surprisingly, the Federalist’s elitist strategy of “vote for Adams because he’s better than you” did not work.</p>
-<p>Now, both parties realize that it was important to coordinate their electoral strategy to make sure that the vice presidential candidate got at least one fewer electoral votes than the presidential candidate.</p>
-<p>But then the Republican elector who was supposed to throw his vote away forgot to, so there ended up being a tie between Thomas Jefferson and Aaron Burr.</p>
-<p>As per the Constitution, the election went to the House of Representatives, where it took 36 ballots and the intervention of Alexander Hamilton before Jefferson was finally named president.</p>
-<p>Incidentally, Burr and Hamilton really disliked each other, and not in like, the passive-aggressive way that politicians dislike each other these days,</p>
-<p>but in the four-years-later-they-would-have-a-duel-and-Burr-killed-Hamilton kind of way.</p>
-<p>A duel which occurred, wait for it, in New Jersey.</p>
-<p>But anyway, shortly after the election of 1800, the 12th Amendment was passed, making the Electoral College simpler, but not as simple as, say, you know, one person’s vote counting as one vote.</p>
-<p>Anyway, complain about the Electoral College all you want, but without it, we would never have had President Rutherford B. Hayes, and just look at that beard!</p>
-<p>So Jefferson became president and his election showed that Americans wanted a more democratic politics, where common people were more free to express their opinions.</p>
-<p>The Federalists were never really a threat again in presidential politics.</p>
-<p>And, arguably, the best thing that John Adams ever did was transfer power in an orderly and honorable way to his rival, Jefferson.</p>
-<p>Jefferson’s campaign slogan was “Jefferson and Liberty,” but the liberty in question was severely limited.</p>
-<p>Only a fraction of white men were allowed to vote and, of course, there was no liberty for the slaves.</p>
-<p>There’s a lot of contentious debate on the subject of Jefferson and slavery, but here’s my two cents, which I should not be allowed to contribute because we should only round to the nearest nickel, which, by the way, features Thomas Jefferson.</p>
-<p>So Thomas Jefferson was a racist and he wrote about black people’s inherent inferiority to whites and Native Americans, and the fact that he fathered children with one of his slaves doesn’t change that.</p>
-<p>George Washington freed his slaves upon his death. Well, sort of.</p>
-<p>They were supposed to be freed upon his wife’s death, but living in a house full of people who were waiting for you to die made Martha want to free them while she was still alive.</p>
-<p>But with few exceptions, Jefferson didn’t free his slaves upon his death and throughout his life, he used the sale of slaves to finance his lavish lifestyle.</p>
-<p>And this leads to two big philosophical questions when it comes to history.</p>
-<p>First, if Jefferson clearly did not think that black people were the intellectual or moral equals of whites and was perfectly comfortable keeping them in bondage,</p>
-<p>then what does the most important phrase of the Declaration of Independence actually mean?</p>
-<p>And the second question is even broader:</p>
-<p>Does it matter if a person of tremendous historical importance had terrible aspects to their character?</p>
-<p>Does being a bad person diminish your accomplishments?</p>
-<p>I don’t have a great answer for those questions, but I will tell you that no remembers Richard Nixon for starting the EPA.</p>
-<p>But this is very important to understand: Slaves were aware of concept of liberty and they wanted it.</p>
-<p>So in addition to an election, 1800 also saw one of the first large-scale slave uprisings.</p>
-<p>Gabriel’s Rebellion was organized by a Richmond, Virginia blacksmith who hoped to seize the capital, kill some of its inhabitants, and hold the rest hostage until his demands for abolition were met.</p>
-<p>But the plot was discovered before they could carry it out and Gabriel, along with 25 other slaves, was hanged.</p>
-<p>But after the rebellion, Virginians, if they didn’t know it already, were very aware that slaves wanted and expected liberty.</p>
-<p>And the response was predictable: Virginia made its laws concerning slaves much harsher.</p>
-<p>It became illegal for slaves to meet in groups on Sundays unless supervised by whites, and it became much more difficult for whites to legally free their slaves.</p>
-<p>Oh, it’s time for the Mystery Document?</p>
-<p>The rules here are simple:</p>
-<p>Identify the author, no shock; fail to identify the author, shock.</p>
-<p>“The love of freedom, sir, is an inborn sentiment, which the god of nature has planted deep in the heart:</p>
-<p>long may it be kept under by the arbitrary institutions of society;</p>
-<p>but, at the first favorable moment, it springs forth, and flourishes with a vigour that defies all check.</p>
-<p>This celestial spark, which fires the breast of the savage, which glows in that of the philosopher, is not extinguished in the bosom of the slave.</p>
-<p>It may be buried in the embers; but it still lives; and the breath of knowledge kindles it to flame.</p>
-<p>Thus we find, sir, there have never been slaves in any country who have not seized the first favorable opportunity to revolt.”</p>
-<p>I mean, from the bit at the beginning about the love of freedom, it seems like it could be Jefferson, but the rest does not seem like Jefferson.</p>
-<p>Probably wasn’t a slave, since they were denied access to education precisely because the “breath of knowledge” is so dangerous to the institution of slavery.</p>
-<p>Oh, this is looking pretty bleak for me, Stan. Mmmmmm. John Jay?</p>
-<p>[buzzing noise] Dang it!</p>
-<p>Who was it? George Tucker?!</p>
-<p>Who the John C. Calhoun is George Tucker?!</p>
-<p>Is there a person watching this who knew that it was George Tucker?</p>
-<p>Fine! [electricity noise] Gah!</p>
-<p>Apparently George Tucker was a member of the General Assembly of Virginia and the Mystery Document was a description of Gabriel’s Rebellion that suggested a solution to the inherent problem of rebellious slaves.</p>
-<p>He argued that we should set up a colony for them in Indian territory in Georgia, which, of course, also wouldn’t have worked because we were soon to steal that territory.</p>
-<p>But back to Jefferson.</p>
-<p>His idea was to make the government smaller, lower taxes, shrink the military, and make it possible for America to become a bucolic, agrarian, empire of liberty,</p>
-<p>rather than an English-style, industrial, mercantile, nightmare landscape.</p>
-<p>So how did he do? Well, really well at first.</p>
-<p>Jefferson got rid of all the taxes, except for the tariff, especially the Whiskey Tax.</p>
-<p>And then, when he woke up with a terrible, cheap whiskey-induced hangover, he paid off part of the national debt.</p>
-<p>He shrunk the army and the navy, and basically made sure that America wouldn’t become a centralized, English-style state for at least the next 60 years.</p>
-<p>Low taxes and small government sounds great, but no navy?</p>
-<p>That would be tough, especially when we needed ships and marines to fight the Barbary pirates “on the shores of Tripoli,” who kept capturing our ships in the Mediterranean and enslaving their crews.</p>
-<p>This is yet another example of how foreign affairs keeps getting in the way of domestic priorities;</p>
-<p>in this case, the domestic priority of not wanting to spend money on a navy.</p>
-<p>Also, vitally, Jefferson’s presidency really marks the last time in history when a Republican president didn’t want to spend money on the military.</p>
-<p>Don’t get me wrong: Democrats can do it too. I’m looking at you, LBJ.</p>
-<p>As much as he wanted to get rid of any trace of the Federalists, Jefferson found himself thwarted by that imminently conservative and undemocratic institution: the Supreme Court.</p>
-<p>Jefferson appointed Republicans to most government positions, but he couldn’t do anything about the Supreme Court because they serve for life.</p>
-<p>And since the country was only like, 12 years old, they were all still pretty fresh.</p>
-<p>Most important among them was Chief Justice John Marshall, who happened to be a Federalist.</p>
-<p>Marshall was Chief Justice basically forever and is, without question, the most important figure in the history of the Supreme Court.</p>
-<p>He wrote a number of key opinions, but none was more important than the 1803 decision in Marbury v. Madison.</p>
-<p>Marbury v. Madison is so important because in that decision, the Supreme Court gave itself the power of judicial review, which allows it to uphold or invalidate federal laws.</p>
-<p>The Court then extended this power to state laws in Fletcher v. Peck and eventually even to executive actions.</p>
-<p>Like, we think of the main job of the Supreme Court being to declare laws unconstitutional, but that power isn’t anywhere in the Constitution itself.</p>
-<p>Marbury v. Madison gave the Court that power and without it, the Supreme Court would probably be a footnote in American history.</p>
-<p>So unlike Marshall, Jefferson and the Republicans were big proponents of strict construction:</p>
-<p>the idea that the Constitution should be read as literally as possible as way of limiting the power of the federal government.</p>
-<p>The problem is, there might be things the government wants to do that the Constitution didn’t account for, like, for instance, buying a large tract of land from Napoleon, who, as we remember from Crash Course World History, complicates everything.</p>
-<p>Let’s go to the Thought Bubble.</p>
-<p>So yeah, Jefferson basically doubled the size of the US in what came to be known as the Louisiana Purchase.</p>
-<p>Napoleon was eager to sell it, because the rebellion in Haiti had soured him on the whole idea of colonies, and also because he needed money.</p>
-<p>Jefferson wanted to purchase New Orleans because western farmers were shipping their products through the city and when he approached France about this, Napoleon was like,</p>
-<p>“Hey! How bout I sell you, this!”</p>
-<p>Jefferson couldn’t turn down that deal, so he bought the whole kit and caboodle for $15 million, which is worth about $250 million today.</p>
-<p>To put that into perspective, a new aircraft carrier costs about $4.5 billion, so he got a good deal.</p>
-<p>What’s the problem with this?</p>
-<p>Well, nothing if you believe in a powerful government that can do stuff that’s not in the Constitution.</p>
-<p>But if you’re a strict Constructionist like Jefferson, you have to reconcile this obviously beneficial act with there being no mention in the Constitution of the president being able to purchase land in order to expand the size of the US.</p>
-<p>So laying scruple aside, Jefferson bought Louisiana and then sent Lewis and Clark to explore it, which they did, even going beyond the boundaries of the Purchase all the way to the Pacific.</p>
-<p>And this was so cool that it almost makes us forget that it was kind of unconstitutional and a huge power grab for the president.</p>
-<p>So the question is: why did he do it?</p>
-<p>Jefferson’s desire to increase the size of the country prompted Federalists to complain that,</p>
-<p>“We are to give money, of which we have too little, for land, of which we already have too much.”</p>
-<p>By doubling the size of the country, Jefferson could ensure that there would be enough land for every white man to have his own small farm.</p>
-<p>And this, in turn, would ensure that Americans would remain independent and virtuous.</p>
-<p>Because only a small farmer who doesn’t have to depend on the market for food or shelter or anything really (well, except slaves), can be truly independent, and thus capable of participating in a nation of free men.</p>
-<p>Thanks, Thought Bubble.</p>
-<p>And this desire to create a nation of independent farmers producing only primary products helps explains Jefferson’s other incredibly controversial policy: the embargo.</p>
-<p>Jefferson imposed the embargo in order to punish Britain for its practice of impressing American sailors, as well as its blockade of France, with whom Britain was once again, or possibly just still, at war.</p>
-<p>So basically, Jefferson wanted free trade among nations and his solution was to get Congress to forbid all American ships from sailing to foreign ports.</p>
-<p>The theory was that the British were so dependent on American primary products, like wood and cotton, that if we cut off trade with them, the British would stop impressing American sailors and end their blockade.</p>
-<p>What’s the connection between free trade and Jefferson’s agrarian ideal?</p>
-<p>Well, the idea was that America would trade its primary products for Europe’s manufactured goods, so that the US wouldn’t have to develop any manufacturing capacity of its own.</p>
-<p>Alas, or perhaps fortunately, this did not work.</p>
-<p>For one thing, Britain and France were too busy fighting each other even to notice America’s embargo.</p>
-<p>So they just continued blockading and impressing.</p>
-<p>Also, the embargo devastated the American economy.</p>
-<p>I mean, exports dropped by 80%.</p>
-<p>Furthermore, not being able to import European manufactured goods only served to spur American manufacturing.</p>
-<p>I mean, Jefferson might have wanted Americans to be a bunch of self-sufficient farmers, but Americans wanted European manufactured stuff, like teapots and clocks and microwaves.</p>
-<p>Well, then how did they cook stuff, Stan?</p>
-<p>And if they couldn’t get that stuff from Britain, they would just make it themselves.</p>
-<p>So in terms of Jefferson’s agrarian ideal, the embargo was a massive failure.</p>
-<p>And lastly, the embargo limited the power of the federal government about as much as crystal meth limits cavities.</p>
-<p>I mean, imposing the embargo was a colossal use of federal power and it was also an imposition on people’s liberties.</p>
-<p>The problem the embargo was supposed to solve didn’t go away and, as we’ll discuss next week, it eventually led to the US’s first declared war.</p>
-<p>For now, I want to leave you with this: Thomas Jefferson is revered and reviled in almost equal measure in American history.</p>
-<p>The Declaration of Independence, which he mainly drafted, is a signal achievement delineating some heroic ideas for the founding of the United States, but also embedding some of its crucial shortcomings.</p>
-<p>And Jefferson’s presidency is like that too.</p>
-<p>He claimed to champion small government, but he enlarged federal power more than Washington or Adams ever did.</p>
-<p>He imagined an agrarian republic, but his policies led to increased manufacturing.</p>
-<p>He wanted to foster freedom, but he owned slaves and took land from the Indians.</p>
-<p>In the end, Jefferson’s life and policies encapsulate the best and the worst of us, which is why his presidency is still worth studying closely.</p>
-<p>I’ll see you next week.</p>
-
+        <p class="article-excerpt-content">
+          Previewhi and welcome to crash course u.s  history a course that approximately  follows the ap  u.s history curriculum as it appeared in  2013  and even though we call it u.s history  we do begin before any europeans show up  in north america  fro...
+        </p>
+        <p class="article-more-link">
+          <a href="/2023/07/11/history/%E7%BE%8E%E5%9B%BD%E6%94%BF%E6%B2%BB%E5%8E%86%E5%8F%B2%E7%AE%80%E5%8F%B21~10/#more">Read More</a>
+        </p>
       
     </div>
-    <footer class="entry-meta entry-footer">
+    <footer class="article-footer">
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/History-Politics/">History & Politics</a>, <a class="article-category-link" href="/categories/History-Politics/American-History-Politics/">American History & Politics</a>
+      
+      
+      
 
-      
-      
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
+
   
-    <article id="post-math/math"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+    <article id="post-physics/clauser"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
     
     
       <header class="article-header">
         
   
     <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2023/07/11/math/math/">Caculus</a>
+      <a class="article-title" href="/2023/07/11/physics/clauser/">The 2022 Clauser Nobel Lecture</a>
     </h1>
   
 
@@ -997,269 +703,144 @@
     
     <div class="article-meta">
       
-	<a href="/2023/07/11/math/math/" class="article-date">
-	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">July 11, 2023</time>
+	<a href="/2023/07/11/physics/clauser/" class="article-date">
+	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">2023-07-11</time>
 	</a>
 
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Mathematics/">Mathematics</a>
- 
+    <a class="article-category-link" href="/categories/Physics/">Physics</a><a class="article-category-link" href="/categories/Physics/Quantum-Physics/">Quantum Physics</a>
+
       
+      
+
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p>2023.7.21.</p>
-<p>我突然想学习微积分，因为我感觉我以后有极大的可能使用到它，微积分的思想和元素极大的充盈着我们所生活的空间之中（也许尤其是一些与曲线相关的内容），而对于我而言，如果到现在还没有理解掌握微积分可能就太过分了,我记得之前我在学习斯坦福Leonard Susskind的广义相对论（原谅我或者也不用原谅我因为我不为了任何人，但是这又使我想起我在音乐方面的学习，在没有何老师认真指导的情况下几乎是野蛮冲撞着，以极其低下的效率），教授说我就没见过不会微积分的高中生（当然也许是一种调侃不过他毕竟是斯坦福的教授）。但是我现在有点不太能确定从何入手去学习数学，因为我对数学的敏感程度可能偏低（相比较平均水准甚至都非常低，虽然我在其他一些方面的天赋极其极端地超越了平均的水准）</p>
-
+        <p class="article-excerpt-content">
+           so our next speaker is  John klauser he was born in Pasadena  California Us in 1942. he studied  undergraduate physics at Caltech and  Colombia University New York  and received a PhD in physics from  Columbia University in 1969  from 1969 to  19...
+        </p>
+        <p class="article-more-link">
+          <a href="/2023/07/11/physics/clauser/#more">Read More</a>
+        </p>
       
     </div>
-    <footer class="entry-meta entry-footer">
+    <footer class="article-footer">
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Mathematics/">Mathematics</a>
+      
+      
+      
 
-      
-  <span class="ico-tags"></span>
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/wct/" rel="tag">wct</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/wct2/" rel="tag">wct2</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/wct3/" rel="tag">wct3</a></li></ul>
-
-      
     </footer>
-    <hr class="entry-footer-hr">
   </div>
   
 </article>
 
 <!-- Table of Contents -->
 
+
+  
+    <article id="post-music/todo"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="article-title" href="/2023/07/11/music/todo/">Musica in todos</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2023/07/11/music/todo/" class="article-date">
+	  <time datetime="2023-07-11T10:44:00.000Z" itemprop="datePublished">2023-07-11</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/Music/">Music</a>
+
+      
+      
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p class="article-excerpt-content">
+          在此记录学习乐理的日常
+2023.7.22.
+昨天学了音程，小二度，大二度，小三度，大三度，纯四&#x2F;五度，增四&#x2F;五度，小六度，大六度，小七度，大七度，和一度(同音)，八度，现在可以简单区分音程关系，但是不够快速现在我在看到一个新的乐谱的时候，会先看这个乐谱的调号，我会通过看谱头有几个升记号或者降记号，通过升fa do so re la mi si和降si mi la re so do fa来判断调号，然后看哪个&#x2F;些音要升或者降，然后我会在我的琴上面把这些音找出来...
+        </p>
+        <p class="article-more-link">
+          <a href="/2023/07/11/music/todo/#more">Read More</a>
+        </p>
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+      
+
+    </footer>
+  </div>
+  
+</article>
+
+<!-- Table of Contents -->
+
+
   
 
 
   <nav id="page-nav">
     
-    <a class="extend prev" rel="prev" href="/page/2/">Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><a class="page-number" href="/page/5/">5</a><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/4/">Next</a>
+    <a class="extend prev" rel="prev" href="/page/2/">&laquo; Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><a class="page-number" href="/page/5/">5</a><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/4/">Next &raquo;</a>
   </nav>
 
 </section>
-          <aside id="sidebar">
-  
-    <div style="margin: 20px 0;">
-	<div id="search-form-wrap">
-
-    <form class="search-form">
-        <label style="width: 72%;">
-            <span class="screen-reader-text">Search for:</span>
-            <input type="search" class="search-field" style="height: 36px; width: 100%;" placeholder=" Search…" value="" name="s" title="Search for:">
-        </label>
-        <input type="submit" class="search-form-submit" value="Search">
-    </form>
-    <div class="ins-search">
-    <div class="ins-search-mask"></div>
-    <div class="ins-search-container">
-        <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="Type something..."/>
-            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
-        </div>
-        <div class="ins-section-wrapper">
-            <div class="ins-section-container"></div>
-        </div>
-    </div>
-</div>
-<script>
-(function (window) {
-    var INSIGHT_CONFIG = {
-        TRANSLATION: {
-            POSTS: 'Posts',
-            PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
-            UNTITLED: '(Untitled)',
-        },
-        ROOT_URL: '/',
-        CONTENT_URL: '/content.json',
-    };
-    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
-})(window);
-</script>
-
-<script src="/js/insight.js"></script>
-
-
-</div>
-</div>
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Connect With Us</h3>
-    <div class="widget widget_athemes_social_icons">
-
-    	<ul class="clearfix widget-social-icons">   
-    	
-   			<li><a target="_blank" rel="noopener" href="https://github.com/iTimeTraveler" title="Github"><i class="fa fa-github" aria-hidden="true"></i></a></li> 
-
-   		
-   			<li><a href="" title="Weibo"><i class="fa fa-weibo" aria-hidden="true"></i></a></li> 
-
-   		
-   			<li><a href="" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> 
-
-   		
-   			<li><a href="" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> 
-
-   		
-   			<li><a href="" title="Google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li> 
-
-   		
-   			<li><a href="" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> 
-
-   		
-   		</ul>
-
-
-   		<!--
-   		<ul class="clearfix widget-social-icons">   		
-   		<li class="widget-si-twitter"><a target="_blank" rel="noopener" href="http://twitter.com" title="Twitter"><i class="ico-twitter"></i></a></li> 
-		<li class="widget-si-facebook"><a target="_blank" rel="noopener" href="http://facebook.com" title="Facebook"><i class="ico-facebook"></i></a></li>
-			<li class="widget-si-gplus"><a target="_blank" rel="noopener" href="http://plus.google.com" title="Google+"><i class="ico-gplus"></i></a></li>
-			<li class="widget-si-pinterest"><a target="_blank" rel="noopener" href="http://pinterest.com" title="Pinterest"><i class="ico-pinterest"></i></a></li>
-			<li class="widget-si-flickr"><a target="_blank" rel="noopener" href="http://flickr.com" title="Flickr"><i class="ico-flickr"></i></a></li>
-			<li class="widget-si-instagram"><a target="_blank" rel="noopener" href="http://instagram.com" title="Instagram"><i class="ico-instagram"></i></a></li>
-		</ul> -->
-
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget_athemes_tabs">
-    <ul id="widget-tab" class="clearfix widget-tab-nav">
-      <li class="active"><a>Recent Posts</a></li>
-    </ul>
-    <div class="widget">
-      <ul>
-        
-          <li class="clearfix">
-
-            
-              <div class="widget-entry-summary" style="margin: 0;">
-            
-
-              <h6 style="margin: 0;"><a href="/2023/09/30/%E5%AF%86%E7%A0%81/password/">密码指南</a></h6>
-              <span>September 30, 2023</span>
-            </div>
-
-          </li>
-        
-          <li class="clearfix">
-
-            
-              <div class="widget-entry-summary" style="margin: 0;">
-            
-
-              <h6 style="margin: 0;"><a href="/2023/08/09/language/Spanish/Spanish/">Basic Words</a></h6>
-              <span>August 9, 2023</span>
-            </div>
-
-          </li>
-        
-          <li class="clearfix">
-
-            
-              <div class="widget-entry-summary" style="margin: 0;">
-            
-
-              <h6 style="margin: 0;"><a href="/2023/08/09/language/English/vocab/">Vocabulary</a></h6>
-              <span>August 9, 2023</span>
-            </div>
-
-          </li>
-        
-          <li class="clearfix">
-
-            
-              <div class="widget-entry-summary" style="margin: 0;">
-            
-
-              <h6 style="margin: 0;"><a href="/2023/08/09/language/English/Thegreatgatsby/">The Great Gatsby</a></h6>
-              <span>August 9, 2023</span>
-            </div>
-
-          </li>
-        
-          <li class="clearfix">
-
-            
-              <div class="widget-entry-summary" style="margin: 0;">
-            
-
-              <h6 style="margin: 0;"><a href="/2023/08/08/general/odyssey/odyssey/">Odyssey</a></h6>
-              <span>August 8, 2023</span>
-            </div>
-
-          </li>
-        
-          <li class="clearfix">
-
-            
-              <div class="widget-entry-summary" style="margin: 0;">
-            
-
-              <h6 style="margin: 0;"><a href="/2023/07/23/Biology/Brain%20Science/UNI/">My World</a></h6>
-              <span>July 23, 2023</span>
-            </div>
-
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Categories</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Biology/">Biology</a><span class="category-list-count">3</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Biology/Brain-Science/">Brain Science</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Biology/Psychology/">Psychology</a><span class="category-list-count">2</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Computer-Science/">Computer Science</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Economics/">Economics</a><span class="category-list-count">6</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Economics/Basics/">Basics</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Economics/Basics/Index/">Index</a><span class="category-list-count">2</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Economics/The-Economist/">The Economist</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/General-Works/">General Works</a><span class="category-list-count">13</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/General-Works/Aphrodite-In-Precarious-Multiform/">Aphrodite In Precarious Multiform</a><span class="category-list-count">7</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/General-Works/Universal-Sets/">Universal Sets</a><span class="category-list-count">5</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/General-Works/Universal-Sets/English/">English</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/General-Works/Universal-Sets/%E4%B8%AD%E6%96%87/">中文</a><span class="category-list-count">4</span></li></ul></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Geography/">Geography</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Geography/Climate-Issues/">Climate Issues</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Geography/Global-Transportation/">Global Transportation</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/History-Politics/">History & Politics</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/History-Politics/American-History-Politics/">American History & Politics</a><span class="category-list-count">2</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Language/">Language</a><span class="category-list-count">15</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Language/English/">English</a><span class="category-list-count">10</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Language/English/English-Literature/">English Literature</a><span class="category-list-count">4</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Language/English/English-Literature/Lolita/">Lolita</a><span class="category-list-count">3</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Language/English/The-Economist/">The Economist</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Language/English/The-Economist/Culture/">Culture</a><span class="category-list-count">1</span></li></ul></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Language/Japanese/">Japanese</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Language/Spanish/">Spanish</a><span class="category-list-count">3</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Language/Spanish/After-Hours/">After Hours</a><span class="category-list-count">1</span></li></ul></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Mathematics/">Mathematics</a><span class="category-list-count">3</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Mathematics/Basic-Tools/">Basic Tools</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Music/">Music</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Physics/">Physics</a><span class="category-list-count">7</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Physics/AMO/">AMO</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Physics/Acoustics/">Acoustics</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Physics/Atomic-Bomb/">Atomic Bomb</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Physics/Quantum-Physics/">Quantum Physics</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Physics/Relativity/">Relativity</a><span class="category-list-count">2</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%AF%86%E7%A0%81%E6%8C%87%E5%8D%97/">密码指南</a><span class="category-list-count">1</span></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/wct/" rel="tag">wct</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/wct2/" rel="tag">wct2</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/wct3/" rel="tag">wct3</a><span class="tag-list-count">1</span></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/wct/" style="font-size: 10px;">wct</a> <a href="/tags/wct2/" style="font-size: 10px;">wct2</a> <a href="/tags/wct3/" style="font-size: 10px;">wct3</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/09/">September 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/08/">August 2023</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/07/">July 2023</a><span class="archive-list-count">53</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/06/">June 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/08/">August 2022</a><span class="archive-list-count">1</span></li></ul>
-    </div>
-  </div>
-
-
-  
-</aside>
         
       </div>
+      
+        <div align="center" style="margin-top: 30px;"><hr class="hr" style="margin:0px; height:3px;"></div>
+      
+      <footer id="footer">
+  
 
+  <div class="container">
+      	<div class="row">
+	      <p> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/iTimeTraveler/hexo-theme-hiker" target="_blank">Hexo-theme-hiker</a> </p>
+	      <p id="copyRightEn">Copyright &copy; 2013 - 2024 Hexo All Rights Reserved.</p>
+	      
+	      
+    		<p class="busuanzi_uv">
+				UV : <span id="busuanzi_value_site_uv"></span> |  
+				PV : <span id="busuanzi_value_site_pv"></span>
+		    </p>
+  		   
+		</div>
+
+		
+  </div>
+</footer>
+
+
+<!-- min height -->
+
+<script>
+    var wrapdiv = document.getElementById("wrap");
+    var contentdiv = document.getElementById("content");
+    var allheader = document.getElementById("allheader");
+
+    wrapdiv.style.minHeight = document.body.offsetHeight + "px";
+    if (allheader != null) {
+      contentdiv.style.minHeight = document.body.offsetHeight - allheader.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    } else {
+      contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    }
+</script>
     </div>
     <!-- <nav id="mobile-nav">
   
@@ -1274,47 +855,7 @@
     <a href="/about" class="mobile-nav-link">About</a>
   
 </nav> -->
-    <footer id="footer" class="site-footer">
-  
-
-  <div class="clearfix container">
-      <div class="site-info">
-	      &copy; 2024 Hexo All Rights Reserved.
-        
-            <span id="busuanzi_container_site_uv">
-              本站访客数<span id="busuanzi_value_site_uv"></span>人次  
-              本站总访问量<span id="busuanzi_value_site_pv"></span>次
-            </span>
-          
-      </div>
-      <div class="site-credit">
-        Theme by <a href="https://github.com/iTimeTraveler/hexo-theme-hipaper" target="_blank">hipaper</a>
-      </div>
-  </div>
-</footer>
-
-
-<!-- min height -->
-
-<script>
-    var wrapdiv = document.getElementById("wrap");
-    var contentdiv = document.getElementById("content");
-
-    wrapdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
-    contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
-
-
-    <!-- headerblur min height -->
     
-      var headerblur = document.getElementById("header-blur");
-      headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
-    
-    
-</script>
-    
-<div style="display: none;">
-  <script src="https://s11.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
-</div>
 
 <!-- mathjax config similar to math.stackexchange -->
 
@@ -1344,7 +885,7 @@
     });
 </script>
 
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
 
@@ -1357,28 +898,30 @@
 
 
 
-<script src="/js/script.js"></script>
+<script src="/js/scripts.js"></script>
 
 
-<script src="/js/bootstrap.js"></script>
 
-
-<script src="/js/main.js"></script>
-
-
+  
+<script src="/js/home.js"></script>
 
 
 
 
 
 
-  <div style="display: none;">
+
+
+
+
+
+	<div style="display: none;">
     <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
   </div>
 
 
 
-	<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
 	</script>
 
 
@@ -1388,7 +931,66 @@
 
   </div>
 
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="myModalLabel">设置</h2>
+      </div>
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+
+
+      <div class="modal-body">
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" onclick="javascript:setFontSize();" aria-expanded="true" aria-controls="collapseOne">
+              正文字号大小
+            </a>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            您已调整页面字体大小
+          </div>
+        </div>
+      
+
+
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" onclick="javascript:setBackground();" aria-expanded="true" aria-controls="collapseTwo">
+              夜间护眼模式
+            </a>
+        </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+            夜间模式已经开启，再次单击按钮即可关闭 
+          </div>
+        </div>
+
+        <div>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关 于&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </div>
+         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            Hexo
+          </div>
+          <div class="panel-body">
+            Copyright © 2024 John Doe All Rights Reserved.
+          </div>
+        </div>
+      </div>
+
+
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <div class="modal-footer">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+      </div>
+    </div>
+  </div>
+</div>
+  
   <a id="rocket" href="#top" class=""></a>
-  <script type="text/javascript" src="/js/totop.js" async=""></script>
+  <script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
+  
 </body>
 </html>
